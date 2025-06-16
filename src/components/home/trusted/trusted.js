@@ -5,7 +5,7 @@ import { ICONS } from "@/utils";
 
 export const Trusted = () => {
   return (
-    <div style={{ position: "relative", overflow: "hidden" }}>
+    <div style={{ position: "relative", overflow: "hidden" }} data-aos="fade-up">
       <div className={styles.trustedContainer}>
         <div className={styles.trustedContent} data-aos="fade-in">
           <div className={styles.leftContainer} data-aos="fade-right">
