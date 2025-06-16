@@ -2,11 +2,11 @@ import Icons from "./icons";
 
 const NAVBAR_ITEMS = [
   { name: "Home", link: "/" },
-  { name: "Tracking", link: "/tracking" },
-  { name: "Services", link: "/services" },
   { name: "About us", link: "/aboutus" },
+  // { name: "Tracking", link: "/tracking" },
+  { name: "Services", link: "/services" },
   { name: "Contact us", link: "/contactus" },
-  { name: "EN", link: "/en" },
+  // { name: "EN", link: "/en" },
 ];
 
 const COMPANIES = [
