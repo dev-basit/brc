@@ -9,8 +9,8 @@ export const ChooseUs = () => {
       <div className={styles.chooseUsContainer} data-aos="zoom-in">
         <div className={styles.leftContainer}>
           <p className={styles.chooseUsText}>
-            We're not just another agency, we're your digital growth partners. With years of industry
-            experience and a passion for innovation.
+            We&apos;re not just another agency, we&apos;re your digital growth partners. With years of
+            industry experience and a passion for innovation.
           </p>
           <br />
           <br />

@@ -7,7 +7,7 @@ import Animation from "@/components/common/animation/animation";
 
 const SpaceGrotest = Space_Grotesk({
   variable: "--space-grotesk",
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
