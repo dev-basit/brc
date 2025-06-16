@@ -33,6 +33,8 @@ import TRUCK from "../../public/images/truck.svg";
 //
 import FEATURED from "../../public/images/brc/featured.svg";
 import LOGO from "../../public/images/brc/logo1.svg";
+import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
+import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -68,6 +70,10 @@ const Icons = {
   TICK_ORANGE,
   TRANSPORT,
   TRUCK,
+
+  //
+  SERVICES_GROUP,
+  BOX_SHINE,
 };
 
 export default Icons;
