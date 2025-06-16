@@ -50,8 +50,8 @@
   width: 85rem;
   height: 40rem;
   position: absolute;
-  bottom: 0;
-  right: -120;
+  bottom: 0px;
+  right: -120px;
 
   @media screen and (max-width: 1280px) {
     width: 15rem;
