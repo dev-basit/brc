@@ -15,6 +15,12 @@
   line-height: 2.4rem;
 }
 
+.textWhite {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
 .buttonPrimary {
   padding: 1.3rem 3rem;
   font-size: 1.8rem;
