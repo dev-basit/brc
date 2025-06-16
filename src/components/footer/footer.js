@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className={styles.footerContainer}>
       <div className={styles.footerContentContainer}>
         <div className={styles.footerLogoContainer}>
-          <Image src={ICONS.LOGO_WHITE} width={150} height={100} alt="logo" />
+          <Image src={ICONS.LOGO} width={150} height={100} alt="logo" />
 
           <div className={styles.subscribeContainer}>
             <div>
@@ -24,7 +24,7 @@ export const Footer = () => {
         <hr />
 
         <div className={styles.footerLogoContainer}>
-          <p>© 2025 Miyar Alinjaz. All rights reserved.</p>
+          <p>© 2025 BRC. All rights reserved.</p>
           <div className={styles.footerOtherItems}>
             <ul>
               {ENUMS.FOOTER_OTHER_ITEMS.map(({ name }) => (
