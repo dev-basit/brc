@@ -21,12 +21,11 @@ const COMPANIES = [
 const FOOTER_OTHER_ITEMS = [{ name: "Terms & Conditions" }, { name: "Privacy" }, { name: "Cookies" }];
 
 const SERVICES = [
-  { name: "Transport", icon: Icons.TRUCK },
-  { name: "Manpower", icon: Icons.ELECTRICITY },
-  { name: "Fulfillment", icon: Icons.OUTLINE },
-  { name: "Storage", icon: Icons.STORAGE },
-  { name: "Last Mile Solution", icon: Icons.PACKING_BOX },
-  { name: "Contracting", icon: Icons.CONTRACT },
+  { id: 1, name: "Outsourced Courier", icon: Icons.TRUCK },
+  { id: 2, name: "Food Delivery Rider", icon: Icons.ELECTRICITY },
+  { id: 3, name: "Trucking Services", icon: Icons.OUTLINE },
+  { id: 4, name: "IT Outsourcing", icon: Icons.STORAGE },
+  { id: 5, name: "Manpower Supply", icon: Icons.STORAGE },
 ];
 
 const ABOUT_US_FIGURES = [

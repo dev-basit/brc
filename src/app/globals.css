@@ -7,7 +7,9 @@
   --color-body: #090f16;
   --color-body-darker: #090f16;
   --color-gray: #4e5e6e;
+  --color-gray-blue: #edf0f3;
   --color-gray-dark: #666666;
+  --color-blue: #090e23;
   --color-black: #000000;
   --color-black-dark: #090f16;
   --color-black-gray: #212529;
@@ -53,7 +55,7 @@ body {
 
 body {
   color: var(--color-body);
-  background: var(--white);
+  background: var(--color-gray-blue);
   font-family: var(--space-grotesk), Inter, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: 1.2;
