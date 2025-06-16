@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  width: var(--body-content-width);
+  margin: 9rem auto;
+  position: relative;
+  padding-bottom: 7rem;
+  border-bottom: 2px solid var(--border-color-dark);
+
+  @media screen and (max-width: 1280px) {
+    margin: 0rem auto;
+    padding-bottom: 0rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.container h1 {
+  color: var(--color-secondary);
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 0rem 2rem;
+
+  @media screen and (max-width: 576px) {
+    font-size: 3rem;
+  }
+}
+
+.container p {
+  font-size: 2rem;
+  padding: 0rem 2rem;
+  line-height: 2;
+
+  @media screen and (max-width: 1280px) {
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 50vw;
+  padding: 2rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0rem;
+    flex-basis: 40vw;
+  }
+}
+
+.rightContainer {
+  flex-basis: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.rightContainer img {
+  width: 100%;
+
+  @media screen and (max-width: 576px) {
+    height: 30rem;
+  }
+}

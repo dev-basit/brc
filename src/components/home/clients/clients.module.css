@@ -1,0 +1,79 @@
+.clientsContainer {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.clientsContainer h1 {
+  font-size: 3rem;
+}
+
+.clientsContentContainer {
+  width: var(--body-content-width);
+  padding: 8rem 0;
+  margin: 8rem auto;
+}
+
+.headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.headings h1 {
+  margin: 2rem 0;
+}
+
+.headings p {
+  line-height: 1.2;
+}
+
+.clientContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 3rem;
+  margin: 7rem;
+
+  @media screen and (max-width: 576px) {
+    margin: 2rem;
+  }
+}
+
+.clientItem {
+  flex-basis: 30%;
+  padding: 3rem;
+  background-color: var(--color-secondary-darker);
+  border-radius: var(--border-radius);
+
+  @media screen and (max-width: 1280px) {
+    flex-basis: 45%;
+  }
+
+  @media screen and (max-width: 576px) {
+    flex-basis: 100%;
+  }
+}
+
+.clientIconsContainer {
+  display: flex;
+}
+
+.clientIcon {
+  margin-right: 5px;
+}
+
+.clientName {
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.clientDescription {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  line-height: 1.3;
+}

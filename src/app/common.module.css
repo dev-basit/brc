@@ -1,0 +1,73 @@
+.navbarHeight {
+  height: var(--navbar-height);
+}
+
+.sectionName {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.text {
+  color: var(--color-body);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flexStartCenter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.formItemLabel {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--color-secondary);
+  line-height: 2;
+}
+
+.formInput {
+  border: 1px solid var(--border-color-dark);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+.formInput::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}
+
+.formTextArea {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+  height: 15rem;
+}
+
+.formTextArea::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}

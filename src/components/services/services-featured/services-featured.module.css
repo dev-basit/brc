@@ -1,0 +1,6 @@
+.clientsContentContainer {
+  width: var(--body-content-width);
+  padding: 8rem 0;
+  margin: 4rem auto;
+  margin-top: 0;
+}
