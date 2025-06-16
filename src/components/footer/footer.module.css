@@ -1,0 +1,135 @@
+.footerContainer {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+.footerContainer h1 {
+  font-size: 3rem;
+}
+
+.footerContentContainer {
+  width: var(--body-content-width);
+  margin: 0 auto;
+  padding: 10rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 5rem 0;
+  }
+}
+
+.footerLogoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.footerLogoContainer h3 {
+  font-size: 2rem;
+}
+
+.footerLogoContainer p {
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.subscribeContainer {
+  display: flex;
+
+  @media screen and (max-width: 768px) {
+    margin: 3rem 0;
+  }
+}
+
+.subscribeContainer input {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+.subscribeContainer button {
+  align-self: flex-end;
+  padding: 1rem 2rem;
+  margin-left: 1.5rem;
+  color: var(--color-secondary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 32px;
+}
+
+.footerNavList {
+  margin-top: 5rem;
+}
+
+.footerNavList li {
+  display: inline;
+  margin-right: 4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1441px) {
+  .footerNavList li {
+    font-size: 2.2rem;
+  }
+}
+
+.footerNavList li:hover {
+  color: var(--color-primary);
+}
+
+.footerNavListContainer {
+  margin-top: 4rem;
+}
+
+.footerNavList {
+  display: inline;
+  margin-right: 4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  @media screen and (min-width: 1441px) {
+    font-size: 2.2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    line-height: 2;
+  }
+}
+
+.footerNavList:hover {
+  color: var(--color-primary);
+}
+
+.footerNavListActive {
+  color: var(--color-primary);
+}
+
+.footerOtherItems li {
+  display: inline;
+  margin-left: 4rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 0rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .footerOtherItems li {
+    font-size: 2.2rem;
+  }
+}
+
+.footerOtherItems li:hover {
+  color: var(--color-primary);
+}

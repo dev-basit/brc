@@ -1,0 +1,17 @@
+.companiesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--body-content-width);
+  margin: 7rem auto;
+  margin-top: 12rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 5rem auto;
+  }
+}
+
+.companiesContainer h2 {
+  color: var(--color-secondary);
+  text-align: center;
+}
