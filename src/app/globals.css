@@ -1,21 +1,29 @@
 @import "./normalize.css";
 
 :root {
-  --color-primary: #f15c28;
-  --color-secondary: #163754;
-  --color-secondary-darker: #09253e;
-  --color-body: #535862;
-  --color-body-darker: #181d27;
-  --color-gray: #717680;
-  --color-gray-light: #a8a8a8;
+  --color-primary: #fdb415;
+  --color-secondary: #000000;
+  --color-secondary-darker: #090f16;
+  --color-body: #090f16;
+  --color-body-darker: #090f16;
+  --color-gray: #4e5e6e;
+  --color-gray-dark: #666666;
+  --color-black: #000000;
+  --color-black-dark: #090f16;
+  --color-black-gray: #212529;
   --color-white: #ffffff;
+  --color-white-light: #eaf0ff;
+  --navbar-height: 10rem;
+  --border-radius-sm: 8px;
+  --border-radius-med: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --body-content-width: 128rem;
+
+  /*  */
+  --color-gray-light: #a8a8a8;
   --border-color: #e9eaeb;
   --border-color-dark: #d5d7da;
-  --navbar-height: 10rem;
-  --border-radius: 16px;
-  --border-radius-sm: 10px;
-  --border-radius-xl: 32px;
-  --body-content-width: 128rem;
 }
 
 html {
@@ -33,7 +41,7 @@ html {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: var(--color-secondary-darker);
+    background-color: rgb(195, 191, 191);
     border-radius: 8px;
   }
 }
@@ -111,7 +119,7 @@ button {
 h1,
 h2,
 h3 {
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 h1 {
@@ -183,7 +191,7 @@ h3 {
   h1,
   h2,
   h3 {
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   h1 {
