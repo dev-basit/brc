@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ENUMS, ICONS } from "@/utils";
 import styles from "./navbar.module.css";
-import Image from "next/image";
 
 export const NavbarItems = () => {
   const currentPath = usePathname();
