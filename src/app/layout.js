@@ -1,14 +1,14 @@
 import "./globals.css";
-import { Rubik } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import { Navbar } from "@/components/navbar/navbar";
 import { Footer } from "@/components/footer/footer";
 import commonStyles from "../../src/app/common.module.css";
 import Animation from "@/components/common/animation/animation";
 
-const rubik = Rubik({
-  variable: "--rubik",
+const SpaceGrotest = Space_Grotesk({
+  variable: "--space-grotesk",
   subsets: ["latin", "cyrillic"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={rubik.variable}>
+      <body className={SpaceGrotest.variable}>
         <div className={commonStyles.navbarHeight} />
         <Animation />
         <Navbar />
