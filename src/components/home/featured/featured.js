@@ -1,23 +1,31 @@
 import styles from "./featured.module.css";
-import Image from "next/image";
-import { ICONS } from "@/utils";
+import commonStyles from "../../../app/common.module.css";
+import { ENUMS } from "@/utils";
 
 export const Featured = () => {
   return (
     <main className={styles.featuredContainer} data-aos="fade-up">
       <div className={styles.featuredContentContainer}>
-        <div className={styles.featuredLeft}>
-          <p className={styles.bar}>We Specialize in the transportation</p>
-          <h1>Explore The Best Logistic & Transport</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Congue nunc molestie accumsan ipsum odio eu eget cras.
-            Massa sit risus quam magna et laoreet ullamcorper massa.
+        <div className={styles.featuredLeft} data-aos="fade-up">
+          <p className={styles.featuredText}>WE ARE BEST COURIER COMPANY</p>
+          <h1>Reliable Outsourcing</h1>
+          <h1> Solutions Across Saudi Arabia</h1>
+          <p className={styles.featuredText}>
+            From delivery to digital, we help businesses scale efficiently with tailored services.{" "}
           </p>
-          <button>Explore our Services</button>
-        </div>
-        <div className={styles.featuredRight}>
-          <div className={styles.featuredImageContainer}>
-            <Image src={ICONS.FEATURED} alt="featured" />
+
+          <div className={styles.featuredFigureContaier} data-aos="fade-right">
+            {ENUMS.PORTFOLIO_FIGURES.map((item) => (
+              <div key={item.label} className={styles.featuredFigureItem}>
+                <div> {item.value}</div>
+                <p>{item.label}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className={styles.featureActionContainer}>
+            <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
+            <p style={{ marginTop: "2rem" }}>Explore Our Services</p>
           </div>
         </div>
       </div>

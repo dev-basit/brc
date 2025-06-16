@@ -42,6 +42,13 @@ const ABOUT_US_FIGURES = [
   { label: "Happy Clients", value: <h1>5467+</h1> },
 ];
 
+const PORTFOLIO_FIGURES = [
+  { label: "Satisfied Clients", value: <h2>26</h2> },
+  { label: "Years of Experience", value: <h2>12</h2> },
+  { label: "Faster Time to hire", value: <h2>66</h2> },
+  { label: "Faster Project Delivery", value: <h2>33</h2> },
+];
+
 const CLIENTS_REVIEWS = [
   {
     name: "Sienna Hewitt",
@@ -116,6 +123,7 @@ const FAQS = [
 
 const Enums = {
   NAVBAR_ITEMS,
+  PORTFOLIO_FIGURES,
   COMPANIES,
   FOOTER_OTHER_ITEMS,
   SERVICES,

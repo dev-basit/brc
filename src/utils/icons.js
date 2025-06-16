@@ -13,11 +13,9 @@ import CONTAINER4 from "../../public/images/container-4.svg";
 import CONTRACT from "../../public/images/contract.svg";
 import CONTRACTING from "../../public/images/services/contracting.svg";
 import ELECTRICITY from "../../public/images/electricity.svg";
-import FEATURED from "../../public/images/featured.svg";
 import FEATURED_BG from "../../public/images/featured-bg.svg";
 import FULFILLMENT from "../../public/images/services/fulfillment.svg";
 import LM_SOLUTION from "../../public/images/services/lm-solution.svg";
-import LOGO from "../../public/images/logo.svg";
 import LOGO_WHITE from "../../public/images/logo-white.svg";
 import MANPOWER from "../../public/images/services/manpower.svg";
 import MAP from "../../public/images/map.svg";
@@ -31,6 +29,10 @@ import STORAGE2 from "../../public/images/services/storage.svg";
 import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRANSPORT from "../../public/images/services/transport.svg";
 import TRUCK from "../../public/images/truck.svg";
+
+//
+import FEATURED from "../../public/images/brc/featured.svg";
+import LOGO from "../../public/images/brc/logo1.svg";
 
 const Icons = {
   CIRCLE_MINUS,
