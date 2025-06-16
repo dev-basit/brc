@@ -43,10 +43,10 @@ const ABOUT_US_FIGURES = [
 ];
 
 const PORTFOLIO_FIGURES = [
-  { label: "Satisfied Clients", value: <h2>26</h2> },
-  { label: "Years of Experience", value: <h2>12</h2> },
-  { label: "Faster Time to hire", value: <h2>66</h2> },
-  { label: "Faster Project Delivery", value: <h2>33</h2> },
+  { label: "Satisfied Clients", value: <h2>26K</h2> },
+  { label: "Years of Experience", value: <h2>12+</h2> },
+  { label: "Faster Time to hire", value: <h2>66%</h2> },
+  { label: "Faster Project Delivery", value: <h2>33%</h2> },
 ];
 
 const CLIENTS_REVIEWS = [
