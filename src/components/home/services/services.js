@@ -25,8 +25,8 @@ export const Services = () => {
           </div>
         </div>
         <div className={styles.servicesItemsContainer} data-aos="fade-up">
-          {ENUMS.SERVICES.map((item) => (
-            <div className={styles.servicesItem}>
+          {ENUMS.SERVICES.map((item, index) => (
+            <div className={styles.servicesItem} key={index}>
               <h2>
                 <pre>0{item.id} </pre>
               </h2>
