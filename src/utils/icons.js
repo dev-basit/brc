@@ -35,6 +35,7 @@ import FEATURED from "../../public/images/brc/featured.svg";
 import LOGO from "../../public/images/brc/logo1.svg";
 import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
 import BOX_SHINE from "../../public/images/brc/box-shine.svg";
+import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -74,6 +75,7 @@ const Icons = {
   //
   SERVICES_GROUP,
   BOX_SHINE,
+  COMPANIES_GROUP,
 };
 
 export default Icons;
