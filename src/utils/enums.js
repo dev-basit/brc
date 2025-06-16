@@ -29,16 +29,10 @@ const SERVICES = [
 ];
 
 const ABOUT_US_FIGURES = [
-  { label: "Delivered Packages", value: <h1>1255+</h1> },
-  {
-    label: "Years of Experience",
-    value: (
-      <h1>
-        <span>10+</span>
-      </h1>
-    ),
-  },
-  { label: "Happy Clients", value: <h1>5467+</h1> },
+  { label: "Campaigns", value: <h1>45+</h1> },
+  { label: "Client Satisfaction", value: <h1>99%</h1> },
+  { label: "Country Reach", value: <h1>5+</h1> },
+  { label: "Certified Experts", value: <h1>10+</h1> },
 ];
 
 const PORTFOLIO_FIGURES = [
@@ -46,6 +40,15 @@ const PORTFOLIO_FIGURES = [
   { label: "Years of Experience", value: <h2>12+</h2> },
   { label: "Faster Time to hire", value: <h2>66%</h2> },
   { label: "Faster Project Delivery", value: <h2>33%</h2> },
+];
+
+const CHOOSE_US_REASONS = [
+  { label: "Fast & Scalable Solutions" },
+  { label: "Trained Professionals" },
+  { label: "AI-powered Delivery Optimization" },
+  { label: "Multiple Payment Options" },
+  { label: "Cost Efficiency" },
+  { label: "Nationwide Coverage" },
 ];
 
 const CLIENTS_REVIEWS = [
@@ -123,6 +126,7 @@ const FAQS = [
 const Enums = {
   NAVBAR_ITEMS,
   PORTFOLIO_FIGURES,
+  CHOOSE_US_REASONS,
   COMPANIES,
   FOOTER_OTHER_ITEMS,
   SERVICES,
