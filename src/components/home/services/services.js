@@ -24,7 +24,7 @@ export const Services = () => {
             <Image src={ICONS.SERVICES_GROUP} alt="services" />
           </div>
         </div>
-        <div className={styles.servicesItemsContainer} data-aos="fade-right">
+        <div className={styles.servicesItemsContainer} data-aos="fade-up">
           {ENUMS.SERVICES.map((item) => (
             <div className={styles.servicesItem}>
               <h2>
