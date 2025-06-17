@@ -45,6 +45,14 @@ import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
 import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
 
+import EMAIL from "../../public/images/brc/email.svg";
+import LOCATION from "../../public/images/brc/location.svg";
+import CALL from "../../public/images/brc/call.svg";
+import YOUTUBE from "../../public/images/brc/youtube.svg";
+import TWITTER from "../../public/images/brc/twitter.svg";
+import INSTAGRAM from "../../public/images/brc/ig.svg";
+import FACEBOOK from "../../public/images/brc/facebook.svg";
+
 const Icons = {
   CIRCLE_MINUS,
   CIRCLE_PLUS,
@@ -92,6 +100,13 @@ const Icons = {
   PERSON2,
   PERSON3,
   LAPTOP_BOX,
+  EMAIL,
+  LOCATION,
+  CALL,
+  YOUTUBE,
+  TWITTER,
+  INSTAGRAM,
+  FACEBOOK,
 };
 
 export default Icons;

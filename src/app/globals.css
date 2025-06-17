@@ -101,6 +101,15 @@ input,
 textarea {
   outline: none;
   border: none;
+  line-height: 1.5;
+}
+
+textarea::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray-dark);
+  opacity: 0.5;
+  font-weight: 500;
+  padding-top: 3px;
 }
 
 input[type="checkbox"] {
@@ -112,7 +121,9 @@ input[type="checkbox"] {
 
 input::placeholder {
   font-size: 1.5rem;
-  color: var(--color-gray-light);
+  color: var(--color-gray-dark);
+  opacity: 0.5;
+  font-weight: 500;
 }
 
 button {
