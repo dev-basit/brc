@@ -39,6 +39,10 @@ import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
 import TICK from "../../public/images/brc/check.svg";
 import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
+import BACKGROUND from "../../public/images/brc/backgroung.svg";
+import PERSON1 from "../../public/images/brc/person1.svg";
+import PERSON2 from "../../public/images/brc/person2.svg";
+import PERSON3 from "../../public/images/brc/person3.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -82,6 +86,10 @@ const Icons = {
   CHOOSE_US_GROUP,
   TICK,
   ARROWS_GROUP,
+  BACKGROUND,
+  PERSON1,
+  PERSON2,
+  PERSON3,
 };
 
 export default Icons;

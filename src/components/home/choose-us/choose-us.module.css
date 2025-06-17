@@ -1,10 +1,12 @@
 .chooseUs {
   position: relative;
+  background-color: var(--color-white);
+  padding: 3rem 0;
 }
 
 .chooseUsHeading {
   text-align: center;
-  margin: 7rem 0;
+  padding: 3rem 0;
   text-transform: uppercase;
 }
 
