@@ -1,10 +1,15 @@
-.container {
+.servicesItemsContainer {
+  background-color: var(--color-white);
+}
+
+.serviceItem {
   display: flex;
   width: var(--body-content-width);
   margin: 9rem auto;
   position: relative;
-  padding-bottom: 7rem;
+  padding: 3rem 2rem;
   border-bottom: 2px solid var(--border-color-dark);
+  border-radius: var(--border-radius-med);
 
   @media screen and (max-width: 1280px) {
     margin: 0rem auto;
@@ -24,16 +29,16 @@
 
 .reverse {
   flex-direction: row-reverse;
+  background-color: var(--color-gray-blue);
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 }
 
-.container h1 {
+.serviceItem h1 {
   color: var(--color-secondary);
   font-size: 4rem;
-  font-weight: 500;
   padding: 0rem 2rem;
 
   @media screen and (max-width: 576px) {
@@ -41,10 +46,10 @@
   }
 }
 
-.container p {
-  font-size: 2rem;
+.serviceItem p,
+.serviceItem ul {
+  font-size: 1.7rem;
   padding: 0rem 2rem;
-  line-height: 2;
 
   @media screen and (max-width: 1280px) {
     line-height: 1.5;
@@ -56,11 +61,20 @@
   }
 }
 
+.serviceItem ul {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.serviceItem li {
+  margin-top: 1rem;
+}
+
 .leftContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-basis: 50vw;
+  flex-basis: 60%;
   padding: 2rem;
 
   @media screen and (max-width: 768px) {
@@ -70,7 +84,7 @@
 }
 
 .rightContainer {
-  flex-basis: 50vw;
+  flex-basis: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
