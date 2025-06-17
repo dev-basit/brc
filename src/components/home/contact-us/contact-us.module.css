@@ -1,22 +1,44 @@
+.contactUs {
+  background: url("/images/brc/map.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .contactUsContainer {
   display: flex;
+  column-gap: 4rem;
   width: var(--body-content-width);
-  margin: 15rem auto;
+  margin: 0rem auto;
+  overflow: hidden;
 
   @media screen and (max-width: 1280px) {
     flex-direction: column;
   }
 }
 
-.contactUsContainer h1 {
+.headings {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.headings h1 {
   color: var(--color-secondary);
-  font-size: 3rem;
+  margin-top: 4rem;
+  line-height: 2;
+  text-transform: uppercase;
 }
 
 .leftContainer {
-  flex-basis: 50%;
+  flex-basis: 35%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem auto;
+  padding: 3rem;
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  border-radius: var(--border-radius-med);
 
   @media screen and (max-width: 1280px) {
     justify-content: center;
@@ -29,11 +51,58 @@
   }
 }
 
+.contactDetails {
+  border-radius: 8px;
+}
+
+.contactDetails h1 {
+  font-size: 2.4rem;
+}
+
+.contactDetails p {
+  font-size: 1.4rem;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.infoItem {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.infoItem span {
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.socialsContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.socialIcon {
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
+  cursor: pointer;
+}
+
+.socialIcon:hover,
+.active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
 .rightContainer {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
-  padding: 0 10rem;
+  flex-basis: 65%;
+  padding: 3rem;
+  margin: 10rem auto;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-med);
 
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -45,12 +114,7 @@
 }
 
 .rightContainer button {
-  padding: 1rem 0;
   margin-top: 3rem;
-  font-weight: 500;
-  color: var(--color-white);
-  background-color: var(--color-secondary);
-  border-radius: var(--border-radius-xl);
 }
 
 .contactUsFormItem {
