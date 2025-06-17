@@ -6,6 +6,9 @@ import { ICONS } from "@/utils";
 export const Trusted = () => {
   return (
     <div style={{ position: "relative", overflow: "hidden" }} data-aos="fade-up">
+      <div className={styles.arrowImage} data-aos="fade-left">
+        <Image src={ICONS.ARROWS_GROUP} alt="continer" fill style={{ objectFit: "contain" }} />
+      </div>
       <div className={styles.trustedContainer}>
         <div className={styles.trustedContent} data-aos="fade-in">
           <div className={styles.leftContainer} data-aos="fade-right">

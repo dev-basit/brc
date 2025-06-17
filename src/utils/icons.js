@@ -38,6 +38,7 @@ import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
 import TICK from "../../public/images/brc/check.svg";
+import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -80,6 +81,7 @@ const Icons = {
   COMPANIES_GROUP,
   CHOOSE_US_GROUP,
   TICK,
+  ARROWS_GROUP,
 };
 
 export default Icons;
