@@ -11,7 +11,7 @@ export default function Services() {
       <ServicesCard />
       {ENUMS.SERVICES_ITEMS.map((service, index) => (
         <ServiceItem
-          key={index}
+          key={service.id}
           id={service.id}
           heading={service.heading}
           imageSrc={service.imageSrc}
