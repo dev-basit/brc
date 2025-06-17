@@ -23,8 +23,8 @@ export const ServiceItem = ({
         <br />
         <p className={commonStyles.text}>{details}</p>
         <ul>
-          {features.map((item) => (
-            <li>{item.details}</li>
+          {features.map((item, index) => (
+            <li key={index}>{item.details}</li>
           ))}
         </ul>
       </div>
