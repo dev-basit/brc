@@ -10,7 +10,7 @@ export const Question = ({ question, answer }) => {
   const contentRef = useRef(null);
 
   return (
-    <div className={styles.questionContainer} data-aos="zoom-in-up">
+    <div className={styles.questionContainer} data-aos="fade-up">
       <div className={styles.questionHeader} onClick={() => setIsOpen(!isOpen)}>
         <h1 className={styles.questionText}>{question}</h1>
         <div className={styles.icon}>

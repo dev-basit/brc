@@ -22,10 +22,10 @@
   --border-radius-lg: 16px;
   --border-radius-xl: 24px;
   --body-content-width: 128rem;
+  --border-color: #cccccc;
 
   /*  */
   --color-gray-light: #a8a8a8;
-  --border-color: #e9eaeb;
   --border-color-dark: #d5d7da;
 }
 

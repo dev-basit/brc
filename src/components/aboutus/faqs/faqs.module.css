@@ -1,11 +1,18 @@
-.clientsContainer {
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--color-white);
   color: var(--color-white);
-  width: var(--body-content-width);
-  margin: 5rem auto;
+  width: 90%;
+  /* height: 100%; */
+  margin: 0 auto;
+  padding: 3rem;
+  background: var(--color-gray-blue);
+  border-radius: var(--border-radius-lg);
 }
 
-.clientsContainer h1 {
+.faqContainer h1 {
   font-size: 3rem;
   color: var(--color-secondary);
 }
@@ -24,7 +31,7 @@
   }
 }
 
-.stillQuestion {
+/* .stillQuestion {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -58,4 +65,4 @@
     margin: 0 auto;
     margin-top: 2rem;
   }
-}
+} */
