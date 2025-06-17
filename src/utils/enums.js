@@ -98,27 +98,27 @@ const VISION = [
 
 const FAQS = [
   {
-    qus: "What types of logistics services do you offer?",
+    qus: "How can I set up a FiFaster account?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
   {
-    qus: "How can I track my shipment?",
+    qus: "How do I schedule a delivery?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
   {
-    qus: "Do you handle international shipping?",
+    qus: "What are your hours of operation?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
   {
-    qus: "What industries do you serve?",
+    qus: "Do you operate 24/7?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
   {
-    qus: "Are your services insured?",
+    qus: "What equipment do you have?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
   {
-    qus: "How do I get a quote for your services?",
+    qus: "Can I track my orders?",
     ans: "We provide a full range of logistics services including freight forwarding, warehousing, inventory management, last-mile delivery, and supply chain solutions tailored to your business needs.",
   },
 ];

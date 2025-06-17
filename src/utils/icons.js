@@ -43,6 +43,7 @@ import BACKGROUND from "../../public/images/brc/backgroung.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
+import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -90,6 +91,7 @@ const Icons = {
   PERSON1,
   PERSON2,
   PERSON3,
+  LAPTOP_BOX,
 };
 
 export default Icons;

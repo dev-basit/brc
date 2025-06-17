@@ -6,6 +6,7 @@ import { Clients } from "@/components/home/clients/clients";
 import { Companies } from "@/components/home/companies/companies";
 import { ContactUs } from "@/components/home/contact-us/contact-us";
 import { Testimonial } from "@/components/home/testimonial/testimonial";
+import { Questions } from "@/components/home/questions/questions";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Trusted />
       <ChooseUs />
       <Testimonial />
+      <Questions />
       {/* <Companies /> */}
       {/* <Clients /> */}
       {/* <ContactUs /> */}
