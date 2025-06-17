@@ -1,17 +1,26 @@
-import styles from "../../home/clients/clients.module.css";
-import servicesStyles from "./services-featured.module.css";
+import styles from "./services-featured.module.css";
 import commonStyles from "../../../app/common.module.css";
+import Image from "next/image";
+import { ICONS } from "@/utils";
 
 export const ServicesFeatured = () => {
   return (
-    <div className={styles.clientsContainer} data-aos="zoom-up">
-      <div className={servicesStyles.clientsContentContainer}>
-        <div className={styles.headings}>
-          <p className={commonStyles.sectionName}>SERVICES</p>
-          <h1>Our Quality Services</h1>
-          <p>We offer the best logistics and tracking for ambitious businesses.</p>
+    <main className={styles.servicesFeaturedContainer} data-aos="fade-up">
+      {/* <div className={styles.holesBackground}></div> */}
+      <div className={styles.servicesFeaturedContentContainer}>
+        <div className={styles.servicesFeaturedLeft}>
+          <h1>We can move you everywhere. </h1>
+          <h1>Easy & Fast</h1>
+          <p>From delivery to digital, we help businesses scale efficiently with tailored services.</p>
+          <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
         </div>
       </div>
-    </div>
+      {/* <div className={styles.servicesFeaturedRight}> */}
+      <div className={styles.servicesFeaturedImage}>
+        <Image src={ICONS.TRUCK2} alt="featured" />
+      </div>
+
+      {/* </div> */}
+    </main>
   );
 };
