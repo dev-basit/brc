@@ -8,7 +8,6 @@
   margin: 9rem auto;
   position: relative;
   padding: 3rem 2rem;
-  border-bottom: 2px solid var(--border-color-dark);
   border-radius: var(--border-radius-med);
 
   @media screen and (max-width: 1280px) {

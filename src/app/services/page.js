@@ -2,11 +2,13 @@ import { ServicesFeatured } from "@/components/services/services-featured/servic
 import { ServiceItem } from "@/components/services/service-item/service-item";
 import { ENUMS } from "@/utils";
 import styles from "../../components/services/service-item/service-item.module.css";
+import { ServicesCard } from "@/components/services/services-card/services-card";
 
 export default function Services() {
   return (
     <div className={styles.servicesItemsContainer}>
       <ServicesFeatured />
+      <ServicesCard />
       {ENUMS.SERVICES_ITEMS.map((service, index) => (
         <ServiceItem
           key={index}

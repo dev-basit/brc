@@ -57,6 +57,7 @@ import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
 import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
 import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
 import MEETING from "../../public/images/brc/meeting.svg";
+import CLOCK from "../../public/images/brc/clock.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -118,6 +119,7 @@ const Icons = {
   MAN_IN_WAREHOUSE,
   TRCUK_ROAD,
   MEETING,
+  CLOCK,
 };
 
 export default Icons;
