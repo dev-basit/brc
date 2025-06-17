@@ -33,7 +33,7 @@ const socialIcons = [
 
 export const ContactUs = () => {
   return (
-    <div className={styles.contactUs}>
+    <div className={styles.contactUs} data-aos="zoom-up">
       <div className={styles.headings}>
         <h1>Fill the form to contact us</h1>
         <p className={commonStyles.text}>
@@ -43,7 +43,7 @@ export const ContactUs = () => {
         </p>
       </div>
       <div className={styles.contactUsContainer}>
-        <div className={styles.leftContainer}>
+        <div className={styles.leftContainer} data-aos="fade-right">
           <div className={styles.contactDetails}>
             <h1>CONTACT INFORMATION</h1>
             <p>Sed facilisis eleifend quam, non efficitur nisi mattis quis</p>
@@ -69,7 +69,7 @@ export const ContactUs = () => {
           </div>
         </div>
 
-        <div className={styles.rightContainer} data-aos="fade-up">
+        <div className={styles.rightContainer} data-aos="fade-left">
           {/* <p className={commonStyles.sectionName}>CONTACT US</p> */}
           {/* <br /> */}
           <div className={commonStyles.flexColumn}>
