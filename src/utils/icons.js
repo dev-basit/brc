@@ -31,27 +31,27 @@ import TRANSPORT from "../../public/images/services/transport.svg";
 import TRUCK from "../../public/images/truck.svg";
 
 //
-import FEATURED from "../../public/images/brc/featured.svg";
-import LOGO from "../../public/images/brc/logo1.svg";
-import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
-import BOX_SHINE from "../../public/images/brc/box-shine.svg";
-import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
-import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
-import TICK from "../../public/images/brc/check.svg";
 import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
 import BACKGROUND from "../../public/images/brc/backgroung.svg";
+import BOX_SHINE from "../../public/images/brc/box-shine.svg";
+import CALL from "../../public/images/brc/call.svg";
+import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
+import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
+import EMAIL from "../../public/images/brc/email.svg";
+import FACEBOOK from "../../public/images/brc/facebook.svg";
+import FEATURED from "../../public/images/brc/featured.svg";
+import INSTAGRAM from "../../public/images/brc/ig.svg";
+import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
+import LOCATION from "../../public/images/brc/location.svg";
+import LOGO from "../../public/images/brc/logo1.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
-import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
-
-import EMAIL from "../../public/images/brc/email.svg";
-import LOCATION from "../../public/images/brc/location.svg";
-import CALL from "../../public/images/brc/call.svg";
-import YOUTUBE from "../../public/images/brc/youtube.svg";
+import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
+import TICK from "../../public/images/brc/check.svg";
 import TWITTER from "../../public/images/brc/twitter.svg";
-import INSTAGRAM from "../../public/images/brc/ig.svg";
-import FACEBOOK from "../../public/images/brc/facebook.svg";
+import YOUTUBE from "../../public/images/brc/youtube.svg";
+import TRUCK2 from "../../public/images/brc/truck.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -89,24 +89,25 @@ const Icons = {
   TRUCK,
 
   //
-  SERVICES_GROUP,
-  BOX_SHINE,
-  COMPANIES_GROUP,
-  CHOOSE_US_GROUP,
-  TICK,
   ARROWS_GROUP,
   BACKGROUND,
+  BOX_SHINE,
+  CALL,
+  CHOOSE_US_GROUP,
+  COMPANIES_GROUP,
+  EMAIL,
+  FACEBOOK,
+  INSTAGRAM,
+  LAPTOP_BOX,
+  LOCATION,
   PERSON1,
   PERSON2,
   PERSON3,
-  LAPTOP_BOX,
-  EMAIL,
-  LOCATION,
-  CALL,
-  YOUTUBE,
+  SERVICES_GROUP,
+  TICK,
+  TRUCK2,
   TWITTER,
-  INSTAGRAM,
-  FACEBOOK,
+  YOUTUBE,
 };
 
 export default Icons;
