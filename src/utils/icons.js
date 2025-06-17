@@ -52,6 +52,11 @@ import TICK from "../../public/images/brc/check.svg";
 import TWITTER from "../../public/images/brc/twitter.svg";
 import YOUTUBE from "../../public/images/brc/youtube.svg";
 import TRUCK2 from "../../public/images/brc/truck.svg";
+import DELIVERY_MAN_BOX from "../../public/images/brc/delivery-man-holding-box.svg";
+import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
+import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
+import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
+import MEETING from "../../public/images/brc/meeting.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -108,6 +113,11 @@ const Icons = {
   TRUCK2,
   TWITTER,
   YOUTUBE,
+  DELIVERY_MAN_BOX,
+  MAN_SCOOTER,
+  MAN_IN_WAREHOUSE,
+  TRCUK_ROAD,
+  MEETING,
 };
 
 export default Icons;
