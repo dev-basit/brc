@@ -38,6 +38,7 @@ import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 import CALL from "../../public/images/brc/call.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
 import CLOCK from "../../public/images/brc/clock.svg";
+import CLOUD from "../../public/images/brc/cloud.svg";
 import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
 import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
 import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
@@ -46,7 +47,9 @@ import EMAIL from "../../public/images/brc/email.svg";
 import ENVELOPE from "../../public/images/brc/envelope-open.svg";
 import FACEBOOK from "../../public/images/brc/facebook.svg";
 import FEATURED from "../../public/images/brc/featured.svg";
+import GUARD from "../../public/images/brc/guard.svg";
 import HASH_TAG from "../../public/images/brc/hashtag.svg";
+import INFO from "../../public/images/brc/info.svg";
 import INSTAGRAM from "../../public/images/brc/Ig-1.svg";
 import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
 import LOCATION from "../../public/images/brc/location.svg";
@@ -54,7 +57,10 @@ import LOGO from "../../public/images/brc/logo1.svg";
 import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
 import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
 import MEETING from "../../public/images/brc/meeting.svg";
+import NATIONWIDE_COVERAGE from "../../public/images/brc/nationwide-coverage.svg";
 import PACKAGE_SMALL from "../../public/images/brc/package.svg";
+import PAYMENT from "../../public/images/brc/payment.svg";
+import PERSON_CLOCK from "../../public/images/brc/person-clock.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
@@ -69,10 +75,9 @@ import TWITTER from "../../public/images/brc/Twitter-1.svg";
 import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
 import USERS_GROUP_SMALL from "../../public/images/brc/user-group.svg";
 import VALUES_GROUP from "../../public/images/brc/values-bg.svg";
+import VISION from "../../public/images/brc/vision.svg";
+import WORLD from "../../public/images/brc/world.svg";
 import YOUTUBE from "../../public/images/brc/youtube.svg";
-import NATIONWIDE_COVERAGE from "../../public/images/brc/nationwide-coverage.svg";
-import PERSON_CLOCK from "../../public/images/brc/person-clock.svg";
-import PAYMENT from "../../public/images/brc/payment.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -117,6 +122,7 @@ const Icons = {
   CALL,
   CHOOSE_US_GROUP,
   CLOCK,
+  CLOUD,
   COMPANIES_GROUP,
   CONTACTUS_BG,
   CONTACTUS_BG2,
@@ -124,14 +130,19 @@ const Icons = {
   EMAIL,
   ENVELOPE,
   FACEBOOK,
+  GUARD,
   HASH_TAG,
+  INFO,
   INSTAGRAM,
   LAPTOP_BOX,
   LOCATION,
   MAN_IN_WAREHOUSE,
   MAN_SCOOTER,
   MEETING,
+  NATIONWIDE_COVERAGE,
   PACKAGE_SMALL,
+  PAYMENT,
+  PERSON_CLOCK,
   PERSON1,
   PERSON2,
   PERSON3,
@@ -146,10 +157,9 @@ const Icons = {
   TWO_MEN_MEETING,
   USERS_GROUP_SMALL,
   VALUES_GROUP,
+  VISION,
+  WORLD,
   YOUTUBE,
-  NATIONWIDE_COVERAGE,
-  PERSON_CLOCK,
-  PAYMENT,
 };
 
 export default Icons;

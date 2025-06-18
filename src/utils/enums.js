@@ -149,6 +149,29 @@ const VISION = [
   { label: "Community & Business Impact" },
 ];
 
+const VISION_FEATURES = [
+  {
+    id: "1",
+    icon: Icons.INFO,
+    text: "Our vision is to identify problems in technology and develop innovative products to help build a better and safe shipping world.",
+  },
+  {
+    id: "2",
+    icon: Icons.CLOUD,
+    text: "Develop products and services to make a sustainable and blissful workplace for those in the marine industry.",
+  },
+  {
+    id: "3",
+    icon: Icons.GUARD,
+    text: "To be the most advanced, reputable, trusted, and result-oriented manufacturing leader by providing maritime services of the highest order.",
+  },
+  {
+    id: "4",
+    icon: Icons.WORLD,
+    text: "To provide safe and smooth operation of all maritime divisions, we aim to become the world's leading manufacturer of sustainable products and solutions.",
+  },
+];
+
 const FAQS = [
   {
     qus: "How can I set up a FiFaster account?",
@@ -377,6 +400,7 @@ const Enums = {
   CLIENTS_REVIEWS,
   MISSION,
   VISION,
+  VISION_FEATURES,
   FAQS,
 };
 
