@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   width: var(--body-content-width);
-  margin: 15rem auto;
+  margin: 10rem auto;
   position: relative;
   padding-bottom: 6rem;
   border-bottom: 1px dashed var(--color-body-darker);

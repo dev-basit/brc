@@ -65,6 +65,10 @@ import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
 import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
 import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
 import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
+import HASH_TAG from "../../public/images/brc/hashtag.svg";
+import TRCUK_SMALL from "../../public/images/brc/truck-sm.svg";
+import USERS_GROUP_SMALL from "../../public/images/brc/user-group.svg";
+import PACKAGE_SMALL from "../../public/images/brc/package.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -134,6 +138,10 @@ const Icons = {
   CONTACTUS_BG2,
   ABOUTUS_BG,
   TWO_MEN_MEETING,
+  HASH_TAG,
+  TRCUK_SMALL,
+  USERS_GROUP_SMALL,
+  PACKAGE_SMALL,
 };
 
 export default Icons;
