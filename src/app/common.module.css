@@ -65,6 +65,13 @@
   line-height: 2;
 }
 
+.formItemLabelSecondary {
+  /* font-weight: 500; */
+  font-size: 1.6rem;
+  color: var(--color-secondary);
+  line-height: 2;
+}
+
 .formInput {
   border: 1px solid var(--border-color-dark);
   border-radius: var(--border-radius-sm);
