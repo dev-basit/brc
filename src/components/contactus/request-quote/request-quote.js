@@ -39,16 +39,16 @@ export const RequestQuote = () => {
           <div className={commonStyles.flexColumn}>
             <div className={styles.formDualItems}>
               <div className={styles.requestQuoteFormItem}>
-                <p className={commonStyles.formItemLabel}>Full Name</p>
+                <p className={commonStyles.formItemLabelSecondary}>Full Name</p>
                 <input className={styles.requestQuoteFormInput} placeholder="Enter Full Name" />
               </div>
             </div>
             <div className={styles.requestQuoteFormItem}>
-              <p className={commonStyles.formItemLabel}>Email</p>
+              <p className={commonStyles.formItemLabelSecondary}>Email</p>
               <input className={styles.requestQuoteFormInput} placeholder="Enter Email" />
             </div>
             <div className={styles.requestQuoteFormItem}>
-              <p className={commonStyles.formItemLabel}>
+              <p className={commonStyles.formItemLabelSecondary}>
                 Phone No
                 <span style={{ color: "gray", fontStyle: "italic" }}>
                   <span style={{ fontStyle: "normal", color: "gray" }}>(</span>Optional

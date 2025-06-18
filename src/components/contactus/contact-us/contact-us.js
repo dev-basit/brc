@@ -41,16 +41,16 @@ export const ContactUs = () => {
         <div className={commonStyles.flexColumn}>
           <div className={styles.formDualItems}>
             <div className={styles.contactUsFormItem}>
-              <p className={commonStyles.formItemLabel}>Full Name</p>
+              <p className={commonStyles.formItemLabelSecondary}>Full Name</p>
               <input className={styles.contactUsFormInput} placeholder="Enter Full Name" />
             </div>
           </div>
           <div className={styles.contactUsFormItem}>
-            <p className={commonStyles.formItemLabel}>Email</p>
+            <p className={commonStyles.formItemLabelSecondary}>Email</p>
             <input className={styles.contactUsFormInput} placeholder="Enter Email" />
           </div>
           <div className={styles.contactUsFormItem}>
-            <p className={commonStyles.formItemLabel}>Message</p>
+            <p className={commonStyles.formItemLabelSecondary}>Message</p>
             <textarea className={styles.contactUsTextArea} placeholder="Leave us a message" />
           </div>
 
