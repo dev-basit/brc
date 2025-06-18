@@ -59,7 +59,7 @@ import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
 import MEETING from "../../public/images/brc/meeting.svg";
 import NATIONWIDE_COVERAGE from "../../public/images/brc/nationwide-coverage.svg";
 import PACKAGE_SMALL from "../../public/images/brc/package.svg";
-import PAYMENT from "../../public/images/brc/payment.svg";
+import PAYMENT from "../../public/images/brc/payment1.svg";
 import PERSON_CLOCK from "../../public/images/brc/person-clock.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
