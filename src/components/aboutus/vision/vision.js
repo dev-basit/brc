@@ -1,11 +1,10 @@
-import React from "react";
-import styles from "./vision.module.css";
 import Image from "next/image";
+import styles from "./vision.module.css";
 import { ENUMS, ICONS } from "@/utils";
 
 export const Vision = () => {
   return (
-    <section className={styles.visionContainer}>
+    <section className={styles.visionContainer} data-aos="zoom-in-up">
       <div className={styles.visionContent}>
         <p className={styles.bartitle}>— VISION —</p>
         <h2 className={styles.mainTitle}>OUR VISION</h2>
@@ -23,7 +22,7 @@ export const Vision = () => {
 
           <div className={styles.visionPointsContainer}>
             {ENUMS.VISION_FEATURES.map((point) => (
-              <div key={point.id} className={styles.visionPointCard}>
+              <div key={point.id} className={styles.visionPointCard} data-aos="fade-left">
                 <div className={styles.visionPointIconContainer}>
                   <Image src={point.icon} alt="Icon" className={styles.visionPointIcon} />
                 </div>

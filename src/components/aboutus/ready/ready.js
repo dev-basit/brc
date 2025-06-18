@@ -6,7 +6,7 @@ import { ICONS } from "@/utils";
 
 export const Ready = () => {
   return (
-    <section className={styles.bannerSection}>
+    <section className={styles.bannerSection} data-aos="zoom-in-up">
       <div className={styles.contentContainer}>
         <h2 className={styles.title}>READY TO REVOLUTIONIZE YOUR LOGISTICS OPERATIONS?</h2>
         <p className={styles.description}>
