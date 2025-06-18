@@ -7,7 +7,7 @@ export const AboutUsCards = () => {
     <section className={styles.featuresContainer}>
       <div className={styles.cardsContainer}>
         {ENUMS.ABOUTUS_CARDS.map((feature) => (
-          <div key={feature.id} className={styles.card}>
+          <div key={feature.id} className={styles.card} data-aos="fade-right">
             <div className={styles.iconContainer}>
               <Image src={feature.icon} alt={feature.title} className={styles.iconImage} />
             </div>
