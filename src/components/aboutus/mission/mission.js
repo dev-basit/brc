@@ -15,7 +15,8 @@ export const Mission = () => {
         <br />
         <p className={commonStyles.text}>
           Our mission is to provide fast, reliable, and cost-effective outsource services to our clients,
-          enabling them to meet their customers' expectations and enhance their own operational efficiency.
+          enabling them to meet their customers&apos; expectations and enhance their own operational
+          efficiency.
         </p>
       </div>
     </div>
