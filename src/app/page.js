@@ -15,9 +15,9 @@ export default function Home() {
       <Trusted />
       <TrustedMbl />
       <ChooseUs />
-      {/* <Testimonial /> */}
-      {/* <Questions /> */}
-      {/* <ContactUs /> */}
+      <Testimonial />
+      <Questions />
+      <ContactUs />
     </>
   );
 }
