@@ -1,15 +1,22 @@
 .footerContainer {
-  background-color: var(--color-secondary);
+  background-color: #1e1e1e;
   color: var(--color-white);
+  padding: 10rem 0;
 }
+
 .footerContainer h1 {
   font-size: 3rem;
 }
 
+.footerContainer h3 {
+  font-size: 2rem;
+}
+
 .footerContentContainer {
+  display: flex;
+  column-gap: 7rem;
   width: var(--body-content-width);
   margin: 0 auto;
-  padding: 10rem 0;
 
   @media screen and (max-width: 768px) {
     padding: 5rem 0;
@@ -18,16 +25,14 @@
 
 .footerLogoContainer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  flex-basis: 25%;
+  margin-top: -4rem;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
-}
-
-.footerLogoContainer h3 {
-  font-size: 2rem;
 }
 
 .footerLogoContainer p {
@@ -37,31 +42,6 @@
   }
 }
 
-.subscribeContainer {
-  display: flex;
-
-  @media screen and (max-width: 768px) {
-    margin: 3rem 0;
-  }
-}
-
-.subscribeContainer input {
-  margin-top: 1rem;
-  padding: 1rem;
-  border-radius: 1rem;
-  font-size: 1.6rem;
-}
-
-.subscribeContainer button {
-  align-self: flex-end;
-  padding: 1rem 2rem;
-  margin-left: 1.5rem;
-  color: var(--color-secondary);
-  font-size: 1.5rem;
-  font-weight: 600;
-  border-radius: 32px;
-}
-
 .footerNavList {
   margin-top: 5rem;
 }
@@ -69,7 +49,7 @@
 .footerNavList li {
   display: inline;
   margin-right: 4rem;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -85,7 +65,15 @@
 }
 
 .footerNavListContainer {
-  margin-top: 4rem;
+  flex-basis: 15%;
+}
+
+.footerNavListContainer ul,
+.contactUsContainer ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-top: 3rem;
 }
 
 .footerNavList {
@@ -132,4 +120,45 @@
 
 .footerOtherItems li:hover {
   color: var(--color-primary);
+}
+
+.contactUsContainer {
+  flex-basis: 20%;
+}
+
+.contactUsContainer h3 {
+  padding-bottom: 4rem;
+}
+
+.newsLetterContainer {
+  display: flex;
+
+  @media screen and (max-width: 768px) {
+    margin: 3rem 0;
+  }
+}
+
+.newsLetterContainer input {
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+.subscribeButton {
+  /* align-self: flex-end; */
+  padding: 1.5rem;
+  height: 4.9rem;
+  margin-left: -1.5rem;
+  margin-top: 5.1rem;
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #fdb415;
+  text-transform: uppercase;
 }
