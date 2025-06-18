@@ -64,6 +64,7 @@ import ENVELOPE from "../../public/images/brc/envelope-open.svg";
 import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
 import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
 import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
+import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -132,6 +133,7 @@ const Icons = {
   CONTACTUS_BG,
   CONTACTUS_BG2,
   ABOUTUS_BG,
+  TWO_MEN_MEETING,
 };
 
 export default Icons;
