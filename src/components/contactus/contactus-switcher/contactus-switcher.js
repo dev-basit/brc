@@ -5,6 +5,7 @@ import styles from "./contactus-switcher.module.css";
 import Image from "next/image";
 import { ICONS } from "@/utils";
 import { ContactUs } from "../contact-us/contact-us";
+import { RequestQuote } from "../request-quote/request-quote";
 
 export const ContactUsSwitcher = () => {
   const [activeTab, setActiveTab] = useState("contact");
@@ -28,7 +29,7 @@ export const ContactUsSwitcher = () => {
       </div>
 
       {activeTab === "contact" && <ContactUs />}
-      {activeTab === "quote" && <ContactUs />}
+      {activeTab === "quote" && <RequestQuote />}
     </div>
   );
 };
