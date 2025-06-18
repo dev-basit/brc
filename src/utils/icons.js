@@ -58,6 +58,12 @@ import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
 import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
 import MEETING from "../../public/images/brc/meeting.svg";
 import CLOCK from "../../public/images/brc/clock.svg";
+import TRUCK_CONTAINER_PLANE from "../../public/images/brc/trucks-containers-plane.svg";
+import TRUCK_CONTAINER_PLAN2 from "../../public/images/brc/trucks-containers-plane2.svg";
+import ENVELOPE from "../../public/images/brc/envelope-open.svg";
+import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
+import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
+import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -120,6 +126,12 @@ const Icons = {
   TRCUK_ROAD,
   MEETING,
   CLOCK,
+  TRUCK_CONTAINER_PLANE,
+  TRUCK_CONTAINER_PLAN2,
+  ENVELOPE,
+  CONTACTUS_BG,
+  CONTACTUS_BG2,
+  ABOUTUS_BG,
 };
 
 export default Icons;
