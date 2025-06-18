@@ -35,6 +35,36 @@ const ABOUT_US_FIGURES = [
   { label: "Certified Experts", value: <h1>10+</h1> },
 ];
 
+const ABOUTUS_CARDS = [
+  {
+    id: "feature-1",
+    icon: Icons.PACKAGE_SMALL,
+    title: "Outsourcing Mission",
+    description:
+      "We deliver secure and efficient IT services that streamline operations and support digital growth.",
+  },
+  {
+    id: "feature-2",
+    icon: Icons.TRCUK_SMALL,
+    title: "Courier & Truck Delivery",
+    description:
+      "Fast and reliable delivery solutions that ensure your goods reach their destination on time.",
+  },
+  {
+    id: "feature-3",
+    icon: Icons.HASH_TAG,
+    title: "IT Solutions",
+    description:
+      "We provide cost-effective outsourcing that helps you exceed customer expectations with ease.",
+  },
+  {
+    id: "feature-4",
+    icon: Icons.USERS_GROUP_SMALL,
+    title: "Manpower Service",
+    description: "Our skilled professionals enhance your team's productivity and operational efficiency.",
+  },
+];
+
 const PORTFOLIO_FIGURES = [
   { label: "Satisfied Clients", value: <h2>26K</h2> },
   { label: "Years of Experience", value: <h2>12+</h2> },
@@ -319,6 +349,7 @@ const Enums = {
   SERVICES,
   SERVICES_ITEMS,
   ABOUT_US_FIGURES,
+  ABOUTUS_CARDS,
   CLIENTS_REVIEWS,
   MISSION,
   VISION,
