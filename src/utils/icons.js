@@ -31,44 +31,48 @@ import TRANSPORT from "../../public/images/services/transport.svg";
 import TRUCK from "../../public/images/truck.svg";
 
 //
+import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
 import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
 import BACKGROUND from "../../public/images/brc/backgroung.svg";
 import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 import CALL from "../../public/images/brc/call.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
+import CLOCK from "../../public/images/brc/clock.svg";
 import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
+import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
+import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
+import DELIVERY_MAN_BOX from "../../public/images/brc/delivery-man-holding-box.svg";
 import EMAIL from "../../public/images/brc/email.svg";
+import ENVELOPE from "../../public/images/brc/envelope-open.svg";
 import FACEBOOK from "../../public/images/brc/facebook.svg";
 import FEATURED from "../../public/images/brc/featured.svg";
+import HASH_TAG from "../../public/images/brc/hashtag.svg";
 import INSTAGRAM from "../../public/images/brc/Ig-1.svg";
 import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
 import LOCATION from "../../public/images/brc/location.svg";
 import LOGO from "../../public/images/brc/logo1.svg";
+import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
+import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
+import MEETING from "../../public/images/brc/meeting.svg";
+import PACKAGE_SMALL from "../../public/images/brc/package.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
 import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
 import TICK from "../../public/images/brc/check.svg";
-import TWITTER from "../../public/images/brc/Twitter-1.svg";
-import YOUTUBE from "../../public/images/brc/youtube.svg";
-import TRUCK2 from "../../public/images/brc/truck.svg";
-import DELIVERY_MAN_BOX from "../../public/images/brc/delivery-man-holding-box.svg";
-import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
-import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
 import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
-import MEETING from "../../public/images/brc/meeting.svg";
-import CLOCK from "../../public/images/brc/clock.svg";
-import TRUCK_CONTAINER_PLANE from "../../public/images/brc/trucks-containers-plane.svg";
-import TRUCK_CONTAINER_PLAN2 from "../../public/images/brc/trucks-containers-plane2.svg";
-import ENVELOPE from "../../public/images/brc/envelope-open.svg";
-import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
-import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
-import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
-import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
-import HASH_TAG from "../../public/images/brc/hashtag.svg";
 import TRCUK_SMALL from "../../public/images/brc/truck-sm.svg";
+import TRUCK_CONTAINER_PLAN2 from "../../public/images/brc/trucks-containers-plane2.svg";
+import TRUCK_CONTAINER_PLANE from "../../public/images/brc/trucks-containers-plane.svg";
+import TRUCK2 from "../../public/images/brc/truck.svg";
+import TWITTER from "../../public/images/brc/Twitter-1.svg";
+import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
 import USERS_GROUP_SMALL from "../../public/images/brc/user-group.svg";
-import PACKAGE_SMALL from "../../public/images/brc/package.svg";
+import VALUES_GROUP from "../../public/images/brc/values-bg.svg";
+import YOUTUBE from "../../public/images/brc/youtube.svg";
+import NATIONWIDE_COVERAGE from "../../public/images/brc/nationwide-coverage.svg";
+import PERSON_CLOCK from "../../public/images/brc/person-clock.svg";
+import PAYMENT from "../../public/images/brc/payment.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -106,42 +110,46 @@ const Icons = {
   TRUCK,
 
   //
+  ABOUTUS_BG,
   ARROWS_GROUP,
   BACKGROUND,
   BOX_SHINE,
   CALL,
   CHOOSE_US_GROUP,
+  CLOCK,
   COMPANIES_GROUP,
+  CONTACTUS_BG,
+  CONTACTUS_BG2,
+  DELIVERY_MAN_BOX,
   EMAIL,
+  ENVELOPE,
   FACEBOOK,
+  HASH_TAG,
   INSTAGRAM,
   LAPTOP_BOX,
   LOCATION,
+  MAN_IN_WAREHOUSE,
+  MAN_SCOOTER,
+  MEETING,
+  PACKAGE_SMALL,
   PERSON1,
   PERSON2,
   PERSON3,
   SERVICES_GROUP,
   TICK,
+  TRCUK_ROAD,
+  TRCUK_SMALL,
+  TRUCK_CONTAINER_PLAN2,
+  TRUCK_CONTAINER_PLANE,
   TRUCK2,
   TWITTER,
-  YOUTUBE,
-  DELIVERY_MAN_BOX,
-  MAN_SCOOTER,
-  MAN_IN_WAREHOUSE,
-  TRCUK_ROAD,
-  MEETING,
-  CLOCK,
-  TRUCK_CONTAINER_PLANE,
-  TRUCK_CONTAINER_PLAN2,
-  ENVELOPE,
-  CONTACTUS_BG,
-  CONTACTUS_BG2,
-  ABOUTUS_BG,
   TWO_MEN_MEETING,
-  HASH_TAG,
-  TRCUK_SMALL,
   USERS_GROUP_SMALL,
-  PACKAGE_SMALL,
+  VALUES_GROUP,
+  YOUTUBE,
+  NATIONWIDE_COVERAGE,
+  PERSON_CLOCK,
+  PAYMENT,
 };
 
 export default Icons;

@@ -2,7 +2,7 @@ import { ENUMS } from "@/utils";
 import styles from "./about-us-cards.module.css";
 import Image from "next/image";
 
-const AboutUsCards = () => {
+export const AboutUsCards = () => {
   return (
     <section className={styles.featuresContainer}>
       <div className={styles.cardsContainer}>
@@ -19,5 +19,3 @@ const AboutUsCards = () => {
     </section>
   );
 };
-
-export default AboutUsCards;

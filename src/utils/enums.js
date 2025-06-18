@@ -65,6 +65,29 @@ const ABOUTUS_CARDS = [
   },
 ];
 
+const ABOUTUS_VALUES = [
+  {
+    id: "feature-fast-scalable",
+    icon: Icons.CLOCK,
+    title: "Fast & Scalable Solutions",
+  },
+  {
+    id: "feature-customer-focus",
+    icon: Icons.PERSON_CLOCK,
+    title: "Customer Focus",
+  },
+  {
+    id: "feature-cost-efficiency",
+    icon: Icons.PAYMENT,
+    title: "Cost Efficiency",
+  },
+  {
+    id: "feature-nationwide-coverage",
+    icon: Icons.NATIONWIDE_COVERAGE,
+    title: "Nationwide Coverage",
+  },
+];
+
 const PORTFOLIO_FIGURES = [
   { label: "Satisfied Clients", value: <h2>26K</h2> },
   { label: "Years of Experience", value: <h2>12+</h2> },
@@ -350,6 +373,7 @@ const Enums = {
   SERVICES_ITEMS,
   ABOUT_US_FIGURES,
   ABOUTUS_CARDS,
+  ABOUTUS_VALUES,
   CLIENTS_REVIEWS,
   MISSION,
   VISION,
