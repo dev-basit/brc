@@ -25,6 +25,10 @@
 
 .featuredText {
   margin: 2rem 0;
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.5rem;
+  }
 }
 
 .featuredLeft {
@@ -45,16 +49,35 @@
   padding: 0 2rem;
   padding-left: 0;
   border-right: 1px dashed white;
+
+  @media screen and (max-width: 576px) {
+    padding: 0 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.featuredFigureItem h2 {
+  @media screen and (max-width: 576px) {
+    font-size: 2.7rem;
+  }
 }
 
 .featuredFigureItem p {
   font-size: 1.6rem;
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.3rem;
+  }
 }
 
 .featureActionContainer {
   display: flex;
   align-items: center;
   column-gap: 4rem;
+
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+  }
 }
 
 .featureActionContainer button {

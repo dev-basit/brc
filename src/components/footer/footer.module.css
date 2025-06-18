@@ -9,7 +9,7 @@
 }
 
 .footerContainer h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .footerContentContainer {
@@ -18,8 +18,8 @@
   width: var(--body-content-width);
   margin: 0 auto;
 
-  @media screen and (max-width: 768px) {
-    padding: 5rem 0;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
   }
 }
 
@@ -29,6 +29,10 @@
   justify-content: space-between;
   flex-basis: 25%;
   margin-top: -4rem;
+
+  @media screen and (max-width: 1280px) {
+    margin-bottom: 6rem;
+  }
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -74,6 +78,11 @@
   flex-direction: column;
   row-gap: 1.5rem;
   margin-top: 3rem;
+
+  @media screen and (max-width: 1280px) {
+    margin-top: 1rem;
+    row-gap: 1rem;
+  }
 }
 
 .footerNavList {
@@ -124,10 +133,18 @@
 
 .contactUsContainer {
   flex-basis: 20%;
+
+  @media screen and (max-width: 1280px) {
+    margin: 4rem 0;
+  }
 }
 
 .contactUsContainer h3 {
   padding-bottom: 4rem;
+
+  @media screen and (max-width: 1280px) {
+    padding-bottom: 2rem;
+  }
 }
 
 .newsLetterContainer {
@@ -151,7 +168,7 @@
   padding: 1.5rem;
   height: 4.9rem;
   margin-left: -1.5rem;
-  margin-top: 5.1rem;
+  margin-top: 6.3rem;
   color: var(--color-secondary);
   font-size: 1.2rem;
   border-radius: 12px;
