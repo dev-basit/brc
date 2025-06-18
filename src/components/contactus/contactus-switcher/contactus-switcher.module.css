@@ -1,0 +1,41 @@
+.tabSwitcher {
+  display: flex;
+  flex-direction: column;
+  margin-top: -4rem;
+  padding-top: 10rem;
+  background: url("/images/brc/contactus-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabSwitcherContent {
+  display: flex;
+  width: 70%;
+  margin: 0rem auto;
+  background-color: var(--color-blue-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tabButton .icon {
+  margin-right: 1.5rem;
+}
+
+.tabButton.active {
+  margin: 4px;
+  font-weight: 500;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

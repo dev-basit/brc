@@ -1,6 +1,10 @@
 .contactUsContainer {
   background-color: var(--color-white);
-  width: var(--body-content-width);
+  background: url("/images/brc/trucks-containers-plane2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: calc(80vh - var(--navbar-height));
   padding: 8rem 0;
   margin: 4rem auto;
   margin-top: 0;
@@ -11,18 +15,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  line-height: 2;
+  line-height: 3;
   margin-bottom: 8rem;
-}
-
-.headings h2 {
-  color: var(--color-secondary);
-}
-
-.map {
-  width: 100%;
-
-  @media screen and (max-width: 576px) {
-    height: 20rem;
-  }
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: bold;
 }
