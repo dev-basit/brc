@@ -10,7 +10,7 @@
 
 .tabSwitcherContent {
   display: flex;
-  width: 70%;
+  width: var(--body-content-width);
   margin: 0rem auto;
   background-color: var(--color-blue-light);
   border-radius: 8px;
