@@ -389,21 +389,21 @@ const SERVICES_ITEMS = [
 const CONTACT_DETAILS = [
   {
     imageSrc: Icons.EMAIL,
-    text: "hello@website.com",
+    text: "contact@brc.com",
   },
   {
     imageSrc: Icons.LOCATION_WHITE,
     text: (
       <>
-        Riverside Building, County Hall,
+        Grandstand 6th floor, Meydan Road, Nad Al Sheba, Dubai, UAE.
         <br />
-        London SE1 7PB, United Kingdom
+        3A, 2nd Floor, Sector XX DHA Phase 3, Lahore.
       </>
     ),
   },
   {
     imageSrc: Icons.CALL_WHITE,
-    text: "+02 5421234560",
+    text: "+92-300-1225542",
   },
 ];
 
