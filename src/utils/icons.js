@@ -36,6 +36,7 @@ import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
 import BACKGROUND from "../../public/images/brc/backgroung.svg";
 import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 import CALL from "../../public/images/brc/call.svg";
+import CALL_WHITE from "../../public/images/brc/call-white.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
 import CLOCK from "../../public/images/brc/clock.svg";
 import CLOUD from "../../public/images/brc/cloud.svg";
@@ -53,6 +54,7 @@ import INFO from "../../public/images/brc/info.svg";
 import INSTAGRAM from "../../public/images/brc/Ig-1.svg";
 import LAPTOP_BOX from "../../public/images/brc/laptop-box.svg";
 import LOCATION from "../../public/images/brc/location.svg";
+import LOCATION_WHITE from "../../public/images/brc/location-white.svg";
 import LOGO from "../../public/images/brc/logo1.svg";
 import MAN_IN_WAREHOUSE from "../../public/images/brc/man-in-warehouse.svg";
 import MAN_SCOOTER from "../../public/images/brc/man-scooter.svg";
@@ -70,8 +72,8 @@ import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
 import TRCUK_SMALL from "../../public/images/brc/truck-sm.svg";
 import TRUCK_CONTAINER_PLAN2 from "../../public/images/brc/trucks-containers-plane2.svg";
 import TRUCK_CONTAINER_PLANE from "../../public/images/brc/trucks-containers-plane.svg";
-import TRUCK2 from "../../public/images/brc/truck.svg";
 import TRUCK_LARGE from "../../public/images/brc/truck2.svg";
+import TRUCK2 from "../../public/images/brc/truck.svg";
 import TWITTER from "../../public/images/brc/Twitter-1.svg";
 import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
 import USERS_GROUP_SMALL from "../../public/images/brc/user-group.svg";
@@ -120,6 +122,7 @@ const Icons = {
   ARROWS_GROUP,
   BACKGROUND,
   BOX_SHINE,
+  CALL_WHITE,
   CALL,
   CHOOSE_US_GROUP,
   CLOCK,
@@ -136,6 +139,7 @@ const Icons = {
   INFO,
   INSTAGRAM,
   LAPTOP_BOX,
+  LOCATION_WHITE,
   LOCATION,
   MAN_IN_WAREHOUSE,
   MAN_SCOOTER,
@@ -153,6 +157,7 @@ const Icons = {
   TRCUK_SMALL,
   TRUCK_CONTAINER_PLAN2,
   TRUCK_CONTAINER_PLANE,
+  TRUCK_LARGE,
   TRUCK2,
   TWITTER,
   TWO_MEN_MEETING,
@@ -161,7 +166,6 @@ const Icons = {
   VISION,
   WORLD,
   YOUTUBE,
-  TRUCK_LARGE,
 };
 
 export default Icons;

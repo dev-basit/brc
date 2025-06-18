@@ -386,6 +386,34 @@ const SERVICES_ITEMS = [
   },
 ];
 
+const CONTACT_DETAILS = [
+  {
+    imageSrc: Icons.EMAIL,
+    text: "hello@website.com",
+  },
+  {
+    imageSrc: Icons.LOCATION_WHITE,
+    text: (
+      <>
+        Riverside Building, County Hall,
+        <br />
+        London SE1 7PB, United Kingdom
+      </>
+    ),
+  },
+  {
+    imageSrc: Icons.CALL_WHITE,
+    text: "+02 5421234560",
+  },
+];
+
+const SOCIAL_ICONS = [
+  { imageSrc: Icons.YOUTUBE, active: true },
+  { imageSrc: Icons.TWITTER, active: false },
+  { imageSrc: Icons.INSTAGRAM, active: false },
+  { imageSrc: Icons.FACEBOOK, active: false },
+];
+
 const Enums = {
   NAVBAR_ITEMS,
   PORTFOLIO_FIGURES,
@@ -402,6 +430,8 @@ const Enums = {
   VISION,
   VISION_FEATURES,
   FAQS,
+  CONTACT_DETAILS,
+  SOCIAL_ICONS,
 };
 
 export default Enums;

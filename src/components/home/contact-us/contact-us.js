@@ -1,35 +1,7 @@
 import Image from "next/image";
 import styles from "./contact-us.module.css";
 import commonStyles from "../../../app/common.module.css";
-import { ICONS } from "@/utils";
-
-const contactDetails = [
-  {
-    imageSrc: ICONS.EMAIL,
-    text: "hello@website.com",
-  },
-  {
-    imageSrc: ICONS.LOCATION,
-    text: (
-      <>
-        Riverside Building, County Hall,
-        <br />
-        London SE1 7PB, United Kingdom
-      </>
-    ),
-  },
-  {
-    imageSrc: ICONS.CALL,
-    text: "+02 5421234560",
-  },
-];
-
-const socialIcons = [
-  { imageSrc: ICONS.YOUTUBE, active: true },
-  { imageSrc: ICONS.TWITTER, active: false },
-  { imageSrc: ICONS.INSTAGRAM, active: false },
-  { imageSrc: ICONS.FACEBOOK, active: false },
-];
+import { ENUMS, ICONS } from "@/utils";
 
 export const ContactUs = () => {
   return (
@@ -47,7 +19,7 @@ export const ContactUs = () => {
           <div className={styles.contactDetails}>
             <h1>CONTACT INFORMATION</h1>
             <p>Sed facilisis eleifend quam, non efficitur nisi mattis quis</p>
-            {contactDetails.map((item, index) => (
+            {ENUMS.CONTACT_DETAILS.map((item, index) => (
               <div className={styles.infoItem} key={index}>
                 <Image src={item.imageSrc} width={15} height={15} alt="open/close" />
                 <span className={styles.text}>{item.text}</span>
@@ -55,7 +27,7 @@ export const ContactUs = () => {
             ))}
 
             <div className={styles.socialsContainer}>
-              {socialIcons.map((item, index) => (
+              {ENUMS.SOCIAL_ICONS.map((item, index) => (
                 <Image
                   src={item.imageSrc}
                   width={40}
