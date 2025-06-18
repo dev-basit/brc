@@ -5,8 +5,7 @@ import { ChooseUs } from "@/components/home/choose-us/choose-us";
 import { Testimonial } from "@/components/home/testimonial/testimonial";
 import { Questions } from "@/components/home/questions/questions";
 import { ContactUs } from "@/components/home/contact-us/contact-us";
-import { Clients } from "@/components/home/clients/clients";
-import { Companies } from "@/components/home/companies/companies";
+import { TrustedMbl } from "@/components/home/trusted-mbl/trusted-mbl";
 
 export default function Home() {
   return (
@@ -14,12 +13,11 @@ export default function Home() {
       <Featured />
       <Services />
       <Trusted />
+      <TrustedMbl />
       <ChooseUs />
-      <Testimonial />
-      <Questions />
-      <ContactUs />
-      {/* <Companies /> */}
-      {/* <Clients /> */}
+      {/* <Testimonial /> */}
+      {/* <Questions /> */}
+      {/* <ContactUs /> */}
     </>
   );
 }

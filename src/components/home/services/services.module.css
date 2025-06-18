@@ -10,16 +10,9 @@
   margin: 7rem auto 10rem auto;
 
   @media screen and (max-width: 1280px) {
-    justify-content: space-around;
-  }
-
-  @media screen and (max-width: 768px) {
-    flex-wrap: wrap;
-    margin: 10rem auto;
-  }
-
-  @media screen and (max-width: 576px) {
-    margin: 5rem auto;
+    flex-direction: column-reverse;
+    row-gap: 10rem;
+    margin: 0rem auto 14rem auto;
   }
 }
 
@@ -29,13 +22,11 @@
 }
 
 .servicesContainer h2 {
-  /* color: var(--color-secondary); */
   font-size: 4rem;
   border-right: 1px dashed var(--color-white);
 }
 
 .servicesContainer h3 {
-  /* color: var(--color-secondary); */
   line-height: 1.1;
   font-size: 3rem;
   padding-left: 1rem;
@@ -54,6 +45,11 @@
   @media screen and (max-width: 768px) {
     flex-basis: 100%;
   }
+
+  @media screen and (max-width: 576px) {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .leftContainer button {
@@ -64,6 +60,10 @@
   display: flex;
   justify-content: flex-end;
   flex: 1;
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+  }
 }
 
 .rightContainer img {
@@ -101,7 +101,6 @@
   z-index: -1;
 
   @media screen and (max-width: 1280px) {
-    width: 15rem;
-    height: 15rem;
+    right: -160px;
   }
 }

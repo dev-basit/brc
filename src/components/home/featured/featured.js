@@ -11,13 +11,13 @@ export const Featured = () => {
           <h1>Reliable Outsourcing</h1>
           <h1> Solutions Across Saudi Arabia</h1>
           <p className={styles.featuredText}>
-            From delivery to digital, we help businesses scale efficiently with tailored services.{" "}
+            From delivery to digital, we help businesses scale efficiently with tailored services.
           </p>
 
           <div className={styles.featuredFigureContaier} data-aos="fade-right">
             {ENUMS.PORTFOLIO_FIGURES.map((item) => (
               <div key={item.label} className={styles.featuredFigureItem}>
-                <div> {item.value}</div>
+                <h2> {item.value}</h2>
                 <p>{item.label}</p>
               </div>
             ))}

@@ -9,6 +9,7 @@ export const Trusted = () => {
       <div className={styles.arrowImage} data-aos="fade-left">
         <Image src={ICONS.ARROWS_GROUP} alt="continer" fill style={{ objectFit: "contain" }} />
       </div>
+
       <div className={styles.trustedContainer}>
         <div className={styles.trustedContent} data-aos="fade-in">
           <div className={styles.leftContainer} data-aos="fade-right">
@@ -24,6 +25,15 @@ export const Trusted = () => {
       </div>
       <div className={styles.companiesImage} data-aos="fade-left">
         <Image src={ICONS.COMPANIES_GROUP} alt="continer" fill style={{ objectFit: "contain" }} />
+      </div>
+
+      <div className={styles.companiesImageMbl} data-aos="fade-left">
+        <Image
+          src={ICONS.COMPANIES_GROUP}
+          alt="continer"
+          fill
+          style={{ objectFit: "contain", padding: "2rem" }}
+        />
       </div>
     </div>
   );

@@ -54,8 +54,19 @@
   right: -120px;
 
   @media screen and (max-width: 1280px) {
-    width: 15rem;
-    height: 15rem;
+    display: none;
+  }
+}
+
+.companiesImageMbl {
+  display: none;
+
+  @media screen and (max-width: 1280px) {
+    display: inline-block;
+    width: 100vw;
+    height: 40rem;
+    background-color: var(--color-blue-dark);
+    object-fit: cover;
   }
 }
 
@@ -69,7 +80,9 @@
   z-index: 1;
 
   @media screen and (max-width: 1280px) {
-    width: 15rem;
-    height: 15rem;
+    /* width: 15rem; */
+    /* height: 15rem; */
+    top: 140px;
+    left: -300px;
   }
 }
