@@ -1,19 +1,22 @@
-import styles from "../../home/clients/clients.module.css";
-import clientsStyles from "./about-us-featured.module.css";
+import styles from "./about-us-featured.module.css";
 import commonStyles from "../../../app/common.module.css";
+import Image from "next/image";
+import { ICONS } from "@/utils";
 
 export const AboutUsFeatured = () => {
   return (
-    <div className={styles.clientsContainer} data-aos="zoom-up">
-      <div className={clientsStyles.clientsContentContainer}>
-        <div className={styles.headings}>
-          <p className={commonStyles.sectionName}>TESTIMONIAL</p>
-          <h1>
-            Our Happy <span>Clients</span>
-          </h1>
-          <p>Hear first-hand from our incredible community of customers.</p>
+    <main className={styles.aboutUsFeaturedContainer} data-aos="fade-up">
+      <div className={styles.aboutUsFeaturedContentContainer}>
+        <div className={styles.aboutUsFeaturedLeft}>
+          <h1>We can move you everywhere. </h1>
+          <h1>Fast & Easily</h1>
+          <p>From delivery to digital, we help businesses scale efficiently with tailored services.</p>
+          <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
         </div>
       </div>
-    </div>
+      <div className={styles.aboutUsFeaturedImage}>
+        <Image src={ICONS.DELIVERY_MAN_BOX} alt="featured" />
+      </div>
+    </main>
   );
 };
