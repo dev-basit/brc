@@ -71,6 +71,7 @@ import TRCUK_SMALL from "../../public/images/brc/truck-sm.svg";
 import TRUCK_CONTAINER_PLAN2 from "../../public/images/brc/trucks-containers-plane2.svg";
 import TRUCK_CONTAINER_PLANE from "../../public/images/brc/trucks-containers-plane.svg";
 import TRUCK2 from "../../public/images/brc/truck.svg";
+import TRUCK_LARGE from "../../public/images/brc/truck2.svg";
 import TWITTER from "../../public/images/brc/Twitter-1.svg";
 import TWO_MEN_MEETING from "../../public/images/brc/two-men-meeting.svg";
 import USERS_GROUP_SMALL from "../../public/images/brc/user-group.svg";
@@ -160,6 +161,7 @@ const Icons = {
   VISION,
   WORLD,
   YOUTUBE,
+  TRUCK_LARGE,
 };
 
 export default Icons;
