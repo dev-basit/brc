@@ -21,6 +21,24 @@
   line-height: 2.4rem;
 }
 
+.textDashed {
+  text-transform: uppercase;
+  color: #090f16;
+  font-weight: 500;
+}
+
+.textDashed::before,
+.textDashed::after {
+  content: " ";
+  display: inline-block;
+  width: 4rem;
+  height: 3px;
+  background-color: #090f16;
+  margin: 2rem 1rem;
+  vertical-align: middle;
+  border-radius: 1rem;
+}
+
 .buttonPrimary {
   padding: 1.3rem 3rem;
   font-size: 1.8rem;

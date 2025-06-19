@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./services.module.css";
-import commonStyles from "../../../app/common.module.css";
+import commonStyles from "@/app/common.module.css";
 import { ENUMS, ICONS } from "@/utils";
 
 export const Services = () => {
@@ -9,6 +9,7 @@ export const Services = () => {
       <div className={styles.servicesContainer}>
         <div className={styles.servicesContent} data-aos="fade-in">
           <div className={styles.leftContainer} data-aos="fade-right">
+            <p className={commonStyles.textDashed}>What We Do</p>
             <h1>Smart, Scalable Services to Power Your Business Operations </h1>
             <br />
             <p className={commonStyles.text}>

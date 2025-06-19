@@ -9,6 +9,7 @@ export const Values = () => {
       <div className={styles.missionContainer}>
         <div className={styles.rightContainer}>
           <div className={styles.rightContainerContent}>
+            <p className={commonStyles.textDashed}>BRC VALUES</p>
             <h1>our core values</h1>
             <br />
             <p className={commonStyles.text}>
