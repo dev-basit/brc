@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./testimonial.module.css";
+import commonStyles from "@/app/common.module.css";
 import { ICONS } from "@/utils";
 
 const testimonials = [
@@ -27,6 +28,8 @@ export const Testimonial = () => {
   return (
     <div className={styles.testimonial} data-aos="zoom-in">
       <div className={styles.testimonialHeading}>
+        <br />
+        <p className={commonStyles.textDashed}>Testimonials</p>
         <h1>see what others people are saying </h1>
         <p className={styles.testimonialText}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis eleifend quam, non efficitur

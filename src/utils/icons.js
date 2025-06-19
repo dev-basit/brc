@@ -84,6 +84,7 @@ import WORLD from "../../public/images/brc/world.svg";
 import YOUTUBE from "../../public/images/brc/youtube.svg";
 import QUESTION from "../../public/images/brc/question.svg";
 import ARROW_RIGHT from "../../public/images/brc/arrow-right.svg";
+import DELIVERY_MAN_BOX2 from "../../public/images/brc/delivery-man-box-2.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -172,6 +173,7 @@ const Icons = {
   YOUTUBE,
   QUESTION,
   ARROW_RIGHT,
+  DELIVERY_MAN_BOX2,
 };
 
 export default Icons;

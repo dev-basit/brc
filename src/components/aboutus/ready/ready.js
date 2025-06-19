@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./ready.module.css";
 import commonStyles from "../../../app/common.module.css";
 import Image from "next/image";

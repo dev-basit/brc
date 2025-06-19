@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "./vision.module.css";
+import commonStyles from "../../../app/common.module.css";
 import { ENUMS, ICONS } from "@/utils";
 
 export const Vision = () => {
   return (
     <section className={styles.visionContainer} data-aos="zoom-in-up">
       <div className={styles.visionContent}>
-        <p className={styles.bartitle}>— VISION —</p>
+        <p className={styles.bartitle}>- VISION -</p>
         <h2 className={styles.mainTitle}>OUR VISION</h2>
         <p className={styles.description}>
           Our vision is to become the leading provider of outsource services to market, leveraging
