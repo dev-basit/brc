@@ -39,6 +39,24 @@
   border-radius: 1rem;
 }
 
+.textDashedWhite {
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.textDashedWhite::before,
+.textDashedWhite::after {
+  content: " ";
+  display: inline-block;
+  width: 4rem;
+  height: 3px;
+  background-color: var(--color-white);
+  margin: 2rem 1rem;
+  vertical-align: middle;
+  border-radius: 1rem;
+}
+
 .buttonPrimary {
   padding: 1.3rem 3rem;
   font-size: 1.8rem;
