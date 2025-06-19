@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./trusted-mbl.module.css";
-import commonStyles from "../../../app/common.module.css";
 import { ICONS } from "@/utils";
 
 export const TrustedMbl = () => {
