@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./services-card.module.css";
+import commonStyles from "@/app/common.module.css";
 import { ICONS } from "@/utils";
 
 const services = [
@@ -35,6 +36,9 @@ export const ServicesCard = () => {
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>
       <div className={styles.servicesContainer}>
+        <p className={commonStyles.textDashed} style={{ textAlign: "center" }}>
+          Our Service
+        </p>
         <h1>Efficient and Reliable Shipping with FastGo </h1>
         <br />
         <br />
