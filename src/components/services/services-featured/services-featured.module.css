@@ -22,6 +22,10 @@
   margin: 0 auto;
   height: 100%;
   position: relative;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .servicesFeaturedLeft {
@@ -32,6 +36,11 @@
   flex-basis: 50%;
   height: 100%;
   color: var(--color-black);
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    padding: 4rem 0 0rem 0;
+  }
 }
 
 .servicesFeaturedLeft h1 {
