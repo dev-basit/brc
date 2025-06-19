@@ -9,8 +9,7 @@ export const ServicesFeatured = () => {
       {/* <div className={styles.holesBackground}></div> */}
       <div className={styles.servicesFeaturedContentContainer}>
         <div className={styles.servicesFeaturedLeft}>
-          <h1>We can move you everywhere. </h1>
-          <h1>Easy & Fast</h1>
+          <h1>We can move you everywhere. Easy & Fast </h1>
           <p>From delivery to digital, we help businesses scale efficiently with tailored services.</p>
           <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
         </div>

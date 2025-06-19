@@ -203,7 +203,7 @@ const SERVICES_ITEMS = [
   {
     id: 1,
     heading: "Outsource Couriers",
-    imageSrc: Icons.DELIVERY_MAN_BOX,
+    imageSrc: Icons.DELIVERY_MAN_BOX2,
     imagePosition: "left",
     details:
       "Our company provides outsourced courier services to delivery companies, helping them to improve efficiency and reduce costs. We offer multiple payment options to meet the needs of different customers:",
