@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./services-card.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import { ICONS } from "@/utils";
 
 const services = [
   {
