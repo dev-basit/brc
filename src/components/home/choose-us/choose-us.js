@@ -1,10 +1,14 @@
 import Image from "next/image";
+import commonStyles from "@/app/common.module.css";
 import styles from "./choose-us.module.css";
 import { ENUMS, ICONS } from "@/utils";
 
 export const ChooseUs = () => {
   return (
     <div className={styles.chooseUs}>
+      <p className={commonStyles.textDashed} style={{ textAlign: "center", paddingTop: "3rem" }}>
+        Why BRC?
+      </p>
       <h1 className={styles.chooseUsHeading}>Why choose Us? </h1>
       <div className={styles.chooseUsContainer} data-aos="zoom-in">
         <div className={styles.leftContainer}>

@@ -9,7 +9,7 @@ export const Navbar = () => {
       <section className={styles.navbarContent}>
         <NavbarLogo />
         <NavbarItems />
-        <button className={commonStyles.buttonPrimary}>Get Quote</button>
+        <button className={`${commonStyles.buttonPrimary} ${styles.navbarQuoteButton}`}>Get Quote</button>
       </section>
     </navbar>
   );

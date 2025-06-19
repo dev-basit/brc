@@ -47,6 +47,7 @@ import DELIVERY_MAN_BOX from "../../public/images/brc/delivery-man-holding-box.s
 import EMAIL from "../../public/images/brc/email.svg";
 import ENVELOPE from "../../public/images/brc/envelope-open.svg";
 import FACEBOOK from "../../public/images/brc/facebook.svg";
+import FEATURE_PERSON_SM from "../../public/images/brc/feature-person-sm.svg";
 import FEATURED from "../../public/images/brc/featured.svg";
 import GUARD from "../../public/images/brc/guard.svg";
 import HASH_TAG from "../../public/images/brc/hashtag.svg";
@@ -81,6 +82,9 @@ import VALUES_GROUP from "../../public/images/brc/values-bg.svg";
 import VISION from "../../public/images/brc/vision.svg";
 import WORLD from "../../public/images/brc/world.svg";
 import YOUTUBE from "../../public/images/brc/youtube.svg";
+import QUESTION from "../../public/images/brc/question.svg";
+import ARROW_RIGHT from "../../public/images/brc/arrow-right.svg";
+import DELIVERY_MAN_BOX2 from "../../public/images/brc/delivery-man-box-2.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -134,6 +138,7 @@ const Icons = {
   EMAIL,
   ENVELOPE,
   FACEBOOK,
+  FEATURE_PERSON_SM,
   GUARD,
   HASH_TAG,
   INFO,
@@ -166,6 +171,9 @@ const Icons = {
   VISION,
   WORLD,
   YOUTUBE,
+  QUESTION,
+  ARROW_RIGHT,
+  DELIVERY_MAN_BOX2,
 };
 
 export default Icons;

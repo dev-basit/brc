@@ -1,7 +1,22 @@
 .testimonial {
   position: relative;
   width: var(--body-content-width);
-  margin: 7rem auto;
+  margin: 1rem auto;
+}
+
+.background {
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -10rem;
+
+  @media screen and (max-width: 1440px) {
+    margin-top: -10rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .testimonialHeading {
@@ -12,6 +27,11 @@
 
 .testimonialHeading h1 {
   line-height: 2.5;
+
+  @media screen and (max-width: 768px) {
+    line-height: 1.3;
+    margin-bottom: 4rem;
+  }
 }
 
 .testimonialText {
@@ -20,6 +40,7 @@
   width: 83%;
   margin: 0rem auto;
   line-height: 1.5;
+  margin-bottom: -7rem;
 }
 
 .leftContainer {
@@ -42,21 +63,31 @@
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 3rem;
-  background: url("/images/brc/backgroung.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 10rem 2rem;
+  padding: 10rem 0rem;
   margin: 10rem 5rem;
   border-radius: 1.5rem;
   position: relative;
+
+  @media screen and (max-width: 768px) {
+    background: url("/images/brc/backgroung.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5rem;
+    padding: 3rem 2rem;
+  }
 }
 
 .card {
-  padding: 4rem;
+  padding: 2rem;
   max-width: 35rem;
   background: var(--color-white);
   border-radius: 1rem;
+  box-shadow: -13px 18px 35px 0px #00000017;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 3rem;
+  }
 }
 
 .profile {
