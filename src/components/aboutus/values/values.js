@@ -7,7 +7,7 @@ export const Values = () => {
   return (
     <div className={styles.mission}>
       <div className={styles.missionContainer}>
-        <div className={styles.rightContainer} data-aos="fade-right">
+        <div className={styles.rightContainer}>
           <div className={styles.rightContainerContent}>
             <h1>our core values</h1>
             <br />
@@ -16,7 +16,7 @@ export const Values = () => {
             </p>
           </div>
         </div>
-        <div className={styles.leftContainer} data-aos="fade-left">
+        <div className={styles.leftContainer}>
           <div className={styles.cardsContainer}>
             {ENUMS.ABOUTUS_VALUES.map((feature) => (
               <div key={feature.id} className={styles.cardItem}>
