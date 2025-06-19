@@ -73,6 +73,9 @@
   flex-direction: column;
   flex-basis: 50%;
 
+  @media screen and (max-width: 1280px) {
+    margin-top: -10rem;
+  }
   @media screen and (max-width: 768px) {
     padding: 0;
   }

@@ -20,4 +20,15 @@
   text-transform: uppercase;
   color: var(--color-white);
   font-weight: bold;
+
+  @media screen and (max-width: 576px) {
+    line-height: 2;
+    padding: 2rem;
+  }
+}
+
+.headings h1 {
+  @media screen and (max-width: 576px) {
+    margin: 2rem;
+  }
 }
