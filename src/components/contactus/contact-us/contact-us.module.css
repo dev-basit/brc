@@ -1,0 +1,112 @@
+.contactUsContainer {
+  display: flex;
+  column-gap: 4rem;
+  width: var(--body-content-width);
+  margin: 5rem auto 10rem auto;
+  overflow: hidden;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
+}
+
+.leftContainer {
+  flex-basis: 50%;
+  display: flex;
+  border-radius: var(--border-radius-med);
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  row-gap: 2rem;
+}
+
+.contactDetails h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.infoItem {
+  flex: 1;
+  display: flex;
+  column-gap: 2rem;
+  width: 35rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.infoItem h2 {
+  font-size: 3rem;
+  margin-top: -0.6rem;
+  line-height: 1.5;
+}
+
+.infoItem p {
+  font-size: 2rem;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    flex-basis: 100%;
+  }
+}
+
+.rightContainer button {
+  margin-top: 3rem;
+}
+
+.contactUsFormItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.formDualItems {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+
+  @media screen and (max-width: 576px) {
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+}
+
+.contactUsFormInput {
+  background: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+.contactUsTextArea {
+  background: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+  height: 15rem;
+}

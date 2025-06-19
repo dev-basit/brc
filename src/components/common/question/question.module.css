@@ -1,0 +1,47 @@
+.questionContainer {
+  width: 85%;
+  color: var(--color-body);
+  margin: 1rem auto;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--border-color);
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+}
+
+.questionContainer p {
+  font-size: 1.7rem;
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 4rem;
+}
+
+.questionHeader h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.questionText {
+  margin: 0;
+  color: var(--color-secondary);
+}
+
+.icon {
+  transition: transform 1s ease;
+}
+
+.answer {
+  padding: 0 16px;
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}

@@ -1,0 +1,201 @@
+.requestQuote {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: var(--body-content-width);
+  margin: 5rem auto 10rem auto;
+  overflow: hidden;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
+}
+
+.requestQuoteContainer {
+  display: flex;
+  column-gap: 4rem;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
+}
+
+.leftContainer {
+  flex-basis: 50%;
+  display: flex;
+  border-radius: var(--border-radius-med);
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  row-gap: 2rem;
+}
+
+.contactDetails h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.infoItem {
+  flex: 1;
+  display: flex;
+  column-gap: 2rem;
+  width: 35rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.infoItem h2 {
+  font-size: 3rem;
+  margin-top: -0.6rem;
+  line-height: 1.5;
+}
+
+.infoItem p {
+  font-size: 2rem;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    flex-basis: 100%;
+  }
+}
+
+.rightContainer button {
+  margin-top: 3rem;
+}
+
+.requestQuoteFormItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.formDualItems {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+
+  @media screen and (max-width: 576px) {
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+}
+
+.requestQuoteFormInput {
+  background: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+.requestQuoteTextArea {
+  background: transparent;
+  border: 1px solid var(--color-black);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+  height: 15rem;
+}
+
+/*  Budget */
+.budgetContainer {
+  margin: 4rem 0;
+  background-color: var(--color-gray);
+  padding: 3rem;
+  border-radius: var(--border-radius-sm);
+}
+
+.budgetTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: var(--color-white);
+}
+
+.budgetOptionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.radioInput {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.customRadio {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+  margin-right: 0.7rem;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.customRadio::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.radioInput:checked + .customRadio {
+  border-color: var(--color-primary);
+}
+
+.radioInput:checked + .customRadio::after {
+  background-color: var(--color-primary);
+}
+
+.radioLabel:hover .customRadio {
+  border-color: var(--color-primary);
+}
+
+.quoteButton {
+  width: 40rem;
+  margin: 0 auto;
+}

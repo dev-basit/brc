@@ -1,0 +1,106 @@
+.servicesContainer {
+  width: var(--body-content-width);
+  margin: 15rem auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.servicesContent {
+  display: flex;
+  margin: 7rem auto 10rem auto;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column-reverse;
+    row-gap: 10rem;
+    margin: 0rem auto 14rem auto;
+  }
+}
+
+.servicesContent h1 {
+  color: var(--color-secondary);
+  font-size: 5rem;
+}
+
+.servicesContainer h2 {
+  font-size: 4rem;
+  border-right: 1px dashed var(--color-white);
+}
+
+.servicesContainer h3 {
+  line-height: 1.1;
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 0.5;
+
+  @media screen and (max-width: 1280px) {
+    flex-basis: 60%;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-basis: 100%;
+  }
+
+  @media screen and (max-width: 576px) {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.leftContainer button {
+  max-width: 20rem;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+  }
+}
+
+.rightContainer img {
+  width: 90%;
+
+  @media screen and (max-width: 576px) {
+    height: auto;
+  }
+}
+
+.servicesItemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  color: var(--color-white);
+}
+
+.servicesItem {
+  display: flex;
+  align-items: center;
+  flex-basis: 40rem;
+  padding: 4rem 5rem;
+  background-color: var(--color-blue);
+  opacity: 60%;
+  border-radius: var(--border-radius-sm);
+}
+
+.boxShineImage {
+  display: inline-block;
+  width: 65rem;
+  height: 65rem;
+  position: absolute;
+  bottom: -200;
+  right: -90px;
+  z-index: -1;
+
+  @media screen and (max-width: 1280px) {
+    right: -160px;
+  }
+}

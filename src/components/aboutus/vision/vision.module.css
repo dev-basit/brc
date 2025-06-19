@@ -1,0 +1,87 @@
+.visionContainer {
+  background-color: var(--color-blue-dark);
+}
+
+.visionContent {
+  width: var(--body-content-width);
+  margin: 10rem auto;
+  padding: 6rem 2rem;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.bartitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.mainTitle {
+  margin-bottom: 25px;
+}
+
+.description {
+  line-height: 1.4;
+  max-width: 90rem;
+  margin: 1rem 0;
+}
+
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.visionImageContainer {
+  display: flex;
+  flex: 1 1 45%;
+  min-width: 30rem;
+}
+
+.visionImage {
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* object-fit: cover; */
+  border-radius: var(--border-radius-med);
+}
+
+.visionPointsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  flex: 1 1 50%;
+  min-width: 30rem;
+}
+
+.visionPointCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 1 1 calc(50% - 30px);
+  min-width: 28rem;
+}
+
+.visionPointIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: var(--border-radius-sm);
+  width: 5rem;
+  height: 5rem;
+}
+
+.visionPointIcon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.visionPointText {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+}

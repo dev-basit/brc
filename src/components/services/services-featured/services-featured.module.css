@@ -1,0 +1,80 @@
+.servicesFeaturedContainer {
+  background: linear-gradient(90deg, #fef1d6 0%, #ffffff 100%);
+  height: calc(100vh - var(--navbar-height));
+  color: var(--color-white);
+  position: relative;
+
+  @media screen and (min-width: 1441px) {
+    height: calc(90vh - var(--navbar-height));
+  }
+}
+
+/* .holesBackground::before {
+  background-image: url("/images/brc/holes-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.servicesFeaturedContentContainer {
+  display: flex;
+  width: var(--body-content-width);
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+.servicesFeaturedLeft {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-basis: 50%;
+  height: 100%;
+  color: var(--color-black);
+}
+
+.servicesFeaturedLeft h1 {
+  text-transform: uppercase;
+}
+
+.servicesFeaturedLeft p {
+  margin: 3.5rem 0;
+}
+
+.servicesFeaturedLeft button {
+  max-width: 24rem;
+}
+
+.servicesFeaturedRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
+}
+
+.servicesFeaturedImage {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: flex-end;
+
+  @media screen and (max-width: 1280px) {
+    position: relative;
+    top: 0px;
+  }
+}
+
+.servicesFeaturedImage img {
+  width: 90%;
+  height: 90%;
+
+  @media screen and (max-width: 576px) {
+    height: auto;
+  }
+}

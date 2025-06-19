@@ -1,0 +1,21 @@
+.trustedContainer {
+  display: none;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-blue-dark);
+
+  @media screen and (max-width: 1280px) {
+    display: inline-block;
+  }
+}
+
+.companiesImageMbl {
+  @media screen and (max-width: 1280px) {
+    display: inline-block;
+    width: 85rem;
+    height: 40rem;
+    position: absolute;
+    bottom: 0px;
+    right: -120px;
+  }
+}

@@ -1,0 +1,98 @@
+.navbarHeight {
+  height: var(--navbar-height);
+}
+
+.sectionName {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.text {
+  color: var(--color-body);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.textWhite {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.buttonPrimary {
+  padding: 1.3rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: var(--border-radius-sm);
+  background: linear-gradient(180deg, #fbc75e -16.79%, #fabb49 38.11%, #eb652b 129.77%);
+  letter-spacing: 1.5px;
+  border: none;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flexStartCenter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.formItemLabel {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--color-secondary);
+  line-height: 2;
+}
+
+.formItemLabelSecondary {
+  /* font-weight: 500; */
+  font-size: 1.6rem;
+  color: var(--color-secondary);
+  line-height: 2;
+}
+
+.formInput {
+  border: 1px solid var(--border-color-dark);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+
+.formInput::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}
+
+.formTextArea {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 1rem;
+  padding-left: 1.5rem;
+  height: 15rem;
+}
+
+.formTextArea::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}
