@@ -41,8 +41,6 @@ export const ServicesCard = () => {
         </p>
         <h1>Efficient and Reliable Shipping with FastGo </h1>
         <br />
-        <br />
-        <br />
         <div className={styles.servicesItemsContainer} data-aos="fade-up">
           {services.map((service, index) => (
             <div className={styles.card} key={index} data-aos="fade-right">
