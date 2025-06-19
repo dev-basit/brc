@@ -11,11 +11,11 @@ export const AboutUsFeatured = () => {
           <h1>We can move you everywhere. </h1>
           <h1>Fast & Easily</h1>
           <p>From delivery to digital, we help businesses scale efficiently with tailored services.</p>
-          <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
+          {/* <button className={commonStyles.buttonPrimary}>Get a Free Quote</button> */}
         </div>
-      </div>
-      <div className={styles.aboutUsFeaturedImage}>
-        <Image src={ICONS.DELIVERY_MAN_BOX} alt="featured" />
+        <div className={styles.aboutUsFeaturedImage}>
+          <Image src={ICONS.DELIVERY_MAN_BOX} alt="featured" />
+        </div>
       </div>
     </main>
   );
