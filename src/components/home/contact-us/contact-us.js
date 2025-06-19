@@ -73,7 +73,7 @@ export const ContactUs = () => {
               <p>You agree to our friendly privacy policy.</p>
             </div> */}
 
-            <button className={commonStyles.buttonPrimary}>Send Message</button>
+            <button className={commonStyles.buttonPrimary}>GET STARTED</button>
           </div>
         </div>
       </div>

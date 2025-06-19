@@ -7,7 +7,7 @@
   }
 
   @media screen and (max-width: 576px) {
-    height: calc(100vh - var(--navbar-height));
+    height: calc(80vh - var(--navbar-height));
   }
 }
 
