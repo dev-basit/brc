@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./testimonial.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import { ICONS } from "@/utils";
 
 const testimonials = [
   {
