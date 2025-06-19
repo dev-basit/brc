@@ -5,6 +5,10 @@
   @media screen and (min-width: 1441px) {
     height: calc(90vh - var(--navbar-height));
   }
+
+  @media screen and (max-width: 576px) {
+    height: calc(100vh - var(--navbar-height));
+  }
 }
 
 .featuredContentContainer {
@@ -37,7 +41,33 @@
 
 .featuredFigureContaier {
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.featurePerson {
+  width: 9rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+
+  @media screen and (max-width: 1440px) {
+    margin-top: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0rem;
+  }
+}
+
+.featuredFigureItemsContaier {
+  display: flex;
   margin: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0rem;
+  }
 }
 
 .featuredFigureItem {
@@ -72,6 +102,7 @@
   column-gap: 4rem;
 
   @media screen and (max-width: 576px) {
+    margin-top: -4rem;
     flex-direction: column;
   }
 }

@@ -31,7 +31,7 @@ export const Hero = () => {
         loop
         preload="auto"
         playsInline
-        controls={true}
+        controls={false}
       >
         <source src="/videos/brc-feature-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

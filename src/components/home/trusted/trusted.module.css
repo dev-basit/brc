@@ -47,11 +47,15 @@
 
 .companiesImage {
   display: inline-block;
-  width: 85rem;
+  width: 90rem;
   height: 40rem;
   position: absolute;
   bottom: 0px;
-  right: -120px;
+  right: -5px;
+
+  @media screen and (max-width: 1440px) {
+    width: 80rem;
+  }
 
   @media screen and (max-width: 1280px) {
     display: none;
@@ -64,9 +68,27 @@
   @media screen and (max-width: 1280px) {
     display: inline-block;
     width: 100vw;
-    height: 40rem;
+    height: 30rem;
     background-color: var(--color-blue-dark);
     object-fit: cover;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 140vw;
+    height: 25rem;
+  }
+}
+
+.companiesImageMbl img {
+  @media screen and (max-width: 1280px) {
+    margin-top: -7rem;
+    padding: 5rem 8rem 8rem 8rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 2rem;
+    margin-left: -8rem;
+    height: 0rem;
   }
 }
 
@@ -80,9 +102,12 @@
   z-index: 1;
 
   @media screen and (max-width: 1280px) {
-    /* width: 15rem; */
-    /* height: 15rem; */
-    top: 140px;
+    top: 400px;
+    left: -300px;
+  }
+
+  @media screen and (max-width: 576px) {
+    top: 350px;
     left: -300px;
   }
 }
