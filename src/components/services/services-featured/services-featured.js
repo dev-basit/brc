@@ -15,7 +15,7 @@ export const ServicesFeatured = () => {
           <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
         </div>
         <div className={styles.servicesFeaturedImage}>
-          <Image src={ICONS.TRUCK2} alt="featured" />
+          <Image src={ICONS.TRUCK_LARGE} alt="featured" />
         </div>
       </div>
     </main>
