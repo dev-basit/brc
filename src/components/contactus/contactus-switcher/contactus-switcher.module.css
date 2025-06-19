@@ -26,10 +26,19 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
 }
 
 .tabButton .icon {
   margin-right: 1.5rem;
+
+  @media screen and (max-width: 576px) {
+    margin-right: 1rem;
+  }
 }
 
 .tabButton.active {

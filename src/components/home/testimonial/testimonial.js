@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./testimonial.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import { ICONS } from "@/utils";
 
 const testimonials = [
   {
@@ -37,8 +37,9 @@ export const Testimonial = () => {
       <div className={styles.cardsContainer}>
         {/* <div className={styles.backgroundImage}>
           <Image src={ICONS.BACKGROUND} alt="background" />
-        </div> */}
+          </div> */}
 
+        <Image src={ICONS.BACKGROUND} alt="background" className={styles.background} />
         {testimonials.map(({ name, title, image, text }, idx) => (
           <div key={idx} className={styles.card} data-aos="fade-up">
             <div className={styles.profile}>
