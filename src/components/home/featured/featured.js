@@ -1,10 +1,13 @@
 import styles from "./featured.module.css";
 import commonStyles from "../../../app/common.module.css";
 import { ENUMS } from "@/utils";
+import { Hero } from "@/components/common/hero/hero";
 
 export const Featured = () => {
   return (
-    <main className={styles.featuredContainer} data-aos="fade-up">
+    <main className={styles.featuredContainer}>
+      <Hero />
+
       <div className={styles.featuredContentContainer}>
         <div className={styles.featuredLeft} data-aos="fade-up">
           <p className={styles.featuredText}>WE ARE BEST COURIER COMPANY</p>

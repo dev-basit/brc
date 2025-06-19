@@ -46,13 +46,14 @@
 }
 
 .navList {
-  color: var(--color-body);
+  position: relative;
+  color: var(--color-white);
   margin-right: 4rem;
   font-weight: 400;
   font-size: 1.8rem;
   cursor: pointer;
-  color: var(--color-white);
   text-transform: uppercase;
+  text-decoration: none;
 
   @media screen and (min-width: 1441px) {
     font-size: 2.2rem;
@@ -62,14 +63,47 @@
     margin: 1.5rem 0;
     font-size: 2rem;
   }
+
+  @media screen and (max-width: 576px) {
+    color: var(--color-black);
+  }
+
+  /* Underline pseudo-element */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 }
 
 .navList:hover {
   color: var(--color-primary);
 }
 
+/* Active state with visible underline */
 .navListActive {
   color: var(--color-primary);
+  position: relative;
+}
+
+.navListActive::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease-in-out;
 }
 
 .hamburger {
