@@ -10,10 +10,11 @@ export default function About_Us() {
     <>
       <AboutUsFeatured />
       <Mission />
+      {/*
       <AboutUsCards />
       <Values />
       <Vision />
-      <Ready />
+      <Ready /> */}
     </>
   );
 }

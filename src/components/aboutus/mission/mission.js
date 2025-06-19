@@ -6,11 +6,11 @@ import { ENUMS, ICONS } from "@/utils";
 export const Mission = () => {
   return (
     <div className={styles.missionContainer}>
-      <div className={styles.leftContainer} data-aos="fade-right">
+      <div className={styles.leftContainer} data-aos="zoom-in-up">
         <Image src={ICONS.TWO_MEN_MEETING} alt="continer" />
       </div>
 
-      <div className={styles.rightContainer} data-aos="fade-left">
+      <div className={styles.rightContainer} data-aos="zoom-in-up">
         <h1>OUR MISSION</h1>
         <br />
         <p className={commonStyles.text}>
