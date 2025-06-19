@@ -28,6 +28,7 @@ export const Testimonial = () => {
   return (
     <div className={styles.testimonial} data-aos="zoom-in">
       <div className={styles.testimonialHeading}>
+        <br />
         <p className={commonStyles.textDashed}>Testimonials</p>
         <h1>see what others people are saying </h1>
         <p className={styles.testimonialText}>

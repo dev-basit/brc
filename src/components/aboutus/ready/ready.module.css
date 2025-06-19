@@ -16,6 +16,11 @@
     text-align: center;
     flex-direction: column;
   }
+
+  @media screen and (max-width: 576px) {
+    margin: 3rem auto;
+    margin-top: -5rem;
+  }
 }
 
 .contentContainer {
