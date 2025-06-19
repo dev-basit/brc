@@ -67,23 +67,24 @@
 }
 
 .servicesFeaturedImage {
-  position: absolute;
-  right: 0px;
-  top: 0px;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
+  width: 60%;
+  height: 100%;
+  padding: 0;
 
-  @media screen and (max-width: 1280px) {
-    position: relative;
-    top: 0px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 40rem;
   }
 }
 
 .servicesFeaturedImage img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 
-  @media screen and (max-width: 576px) {
-    height: auto;
+  @media screen and (max-width: 1440px) {
+    height: 95%;
   }
 }
