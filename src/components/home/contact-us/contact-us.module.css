@@ -32,6 +32,11 @@
   margin-top: 4rem;
   line-height: 2;
   text-transform: uppercase;
+
+  @media screen and (max-width: 576px) {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
 }
 
 .leftContainer {
@@ -53,6 +58,7 @@
   @media screen and (max-width: 576px) {
     object-fit: cover;
     overflow: hidden;
+    margin: 3rem 0;
   }
 }
 
@@ -116,6 +122,10 @@
   @media screen and (max-width: 1280px) {
     margin: 5rem;
     flex-basis: 100%;
+  }
+
+  @media screen and (max-width: 576px) {
+    margin: 2rem 0;
   }
 }
 
