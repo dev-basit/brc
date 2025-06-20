@@ -12,9 +12,14 @@ export const Question = ({ question, answer }) => {
   return (
     <div className={styles.questionContainer} data-aos="fade-up">
       <div className={styles.questionHeader} onClick={() => setIsOpen(!isOpen)}>
-        <h1 className={styles.questionText}>{question}</h1>
         <div className={styles.icon}>
-          <Image src={isOpen ? ICONS.CIRCLE_MINUS : ICONS.CIRCLE_PLUS} alt="open/close" />
+          <Image src={ICONS.QUESTION} alt="?" />
+        </div>
+
+        <h1 className={styles.questionText}>{question}</h1>
+        {/* <div style={{ flex: 1 }}></div> */}
+        <div className={styles.icon}>
+          <Image src={ICONS.ARROW_RIGHT} alt="open/close" />
         </div>
       </div>
 

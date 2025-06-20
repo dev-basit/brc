@@ -2,6 +2,10 @@
   background: url("/images/brc/values-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media screen and (max-width: 768px) {
+    background: url("/images/brc/boxes-racks.svg");
+  }
 }
 
 .missionContainer {
@@ -13,13 +17,15 @@
   padding: 4rem;
 
   @media screen and (max-width: 1280px) {
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10rem auto;
   }
 
   @media screen and (max-width: 576px) {
     margin: 5rem auto;
-    margin-bottom: -10rem;
+    /* margin-bottom: -10rem; */
   }
 }
 
@@ -27,12 +33,7 @@
   flex-basis: 60%;
 
   @media screen and (max-width: 1280px) {
-    position: relative;
-    top: 0px;
-  }
-
-  @media screen and (max-width: 576px) {
-    top: -130px;
+    flex-basis: 100%;
   }
 }
 
@@ -62,21 +63,17 @@
 
   @media screen and (max-width: 1280px) {
     flex-basis: 100%;
-    margin: 0 20rem;
-  }
-
-  @media screen and (max-width: 1280px) {
-    margin: 0;
-  }
-
-  @media screen and (max-width: 576px) {
-    margin-top: -12rem;
+    margin-bottom: 4rem;
   }
 }
 
 .rightContainerContent {
   width: 80%;
   text-transform: uppercase;
+
+  @media screen and (max-width: 1280px) {
+    width: 100%;
+  }
 }
 
 /* cards  */
@@ -85,6 +82,10 @@
   flex-wrap: wrap;
   gap: 3rem;
   padding-left: 10rem;
+
+  @media screen and (max-width: 1280px) {
+    padding-left: 0rem;
+  }
 }
 
 .cardItem {
@@ -99,6 +100,10 @@
   max-width: 30rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
+
+  @media screen and (max-width: 768px) {
+    background-color: transparent;
+  }
 }
 
 /* Adjust cardItem sizing for smaller screens */

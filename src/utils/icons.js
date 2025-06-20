@@ -32,9 +32,11 @@ import TRUCK from "../../public/images/truck.svg";
 
 //
 import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
+import ARROW_RIGHT from "../../public/images/brc/arrow-right.svg";
 import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
 import BACKGROUND from "../../public/images/brc/backgroung.svg";
 import BOX_SHINE from "../../public/images/brc/box-shine.svg";
+import BOXES_RACKS from "../../public/images/brc/boxes-racks.svg";
 import CALL from "../../public/images/brc/call.svg";
 import CALL_WHITE from "../../public/images/brc/call-white.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
@@ -44,9 +46,11 @@ import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
 import CONTACTUS_BG from "../../public/images/brc/contactus-bg.svg";
 import CONTACTUS_BG2 from "../../public/images/brc/contactus-bg2.svg";
 import DELIVERY_MAN_BOX from "../../public/images/brc/delivery-man-holding-box.svg";
+import DELIVERY_MAN_BOX2 from "../../public/images/brc/delivery-man-box-2.svg";
 import EMAIL from "../../public/images/brc/email.svg";
 import ENVELOPE from "../../public/images/brc/envelope-open.svg";
 import FACEBOOK from "../../public/images/brc/facebook.svg";
+import FEATURE_PERSON_SM from "../../public/images/brc/feature-person-sm.svg";
 import FEATURED from "../../public/images/brc/featured.svg";
 import GUARD from "../../public/images/brc/guard.svg";
 import HASH_TAG from "../../public/images/brc/hashtag.svg";
@@ -66,6 +70,7 @@ import PERSON_CLOCK from "../../public/images/brc/person-clock.svg";
 import PERSON1 from "../../public/images/brc/person1.svg";
 import PERSON2 from "../../public/images/brc/person2.svg";
 import PERSON3 from "../../public/images/brc/person3.svg";
+import QUESTION from "../../public/images/brc/question.svg";
 import SERVICES_GROUP from "../../public/images/brc/services-group.svg";
 import TICK from "../../public/images/brc/check.svg";
 import TRCUK_ROAD from "../../public/images/brc/truck-road.svg";
@@ -119,9 +124,11 @@ const Icons = {
 
   //
   ABOUTUS_BG,
+  ARROW_RIGHT,
   ARROWS_GROUP,
   BACKGROUND,
   BOX_SHINE,
+  BOXES_RACKS,
   CALL_WHITE,
   CALL,
   CHOOSE_US_GROUP,
@@ -131,9 +138,11 @@ const Icons = {
   CONTACTUS_BG,
   CONTACTUS_BG2,
   DELIVERY_MAN_BOX,
+  DELIVERY_MAN_BOX2,
   EMAIL,
   ENVELOPE,
   FACEBOOK,
+  FEATURE_PERSON_SM,
   GUARD,
   HASH_TAG,
   INFO,
@@ -151,6 +160,7 @@ const Icons = {
   PERSON1,
   PERSON2,
   PERSON3,
+  QUESTION,
   SERVICES_GROUP,
   TICK,
   TRCUK_ROAD,

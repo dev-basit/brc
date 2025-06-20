@@ -46,21 +46,41 @@
 }
 
 .navList {
-  color: var(--color-body);
-  margin-right: 4rem;
-  font-weight: 400;
-  font-size: 1.8rem;
-  cursor: pointer;
+  position: relative;
   color: var(--color-white);
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
   text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
 
   @media screen and (min-width: 1441px) {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
 
   @media screen and (max-width: 768px) {
     margin: 1.5rem 0;
     font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-black);
+  }
+
+  /* Underline pseudo-element */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 }
 
@@ -68,8 +88,21 @@
   color: var(--color-primary);
 }
 
+/* Active state with visible underline */
 .navListActive {
   color: var(--color-primary);
+  position: relative;
+}
+
+.navListActive::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease-in-out;
 }
 
 .hamburger {
@@ -81,5 +114,11 @@
     display: block;
     position: relative;
     z-index: 1100;
+  }
+}
+
+.navbarQuoteButton {
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 }

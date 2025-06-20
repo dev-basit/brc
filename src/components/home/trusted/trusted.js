@@ -27,13 +27,8 @@ export const Trusted = () => {
         <Image src={ICONS.COMPANIES_GROUP} alt="continer" fill style={{ objectFit: "contain" }} />
       </div>
 
-      <div className={styles.companiesImageMbl} data-aos="fade-left">
-        <Image
-          src={ICONS.COMPANIES_GROUP}
-          alt="continer"
-          fill
-          style={{ objectFit: "contain", padding: "2rem" }}
-        />
+      <div className={styles.companiesImageMbl} data-aos="fade-up">
+        <Image src={ICONS.COMPANIES_GROUP} alt="continer" fill />
       </div>
     </div>
   );

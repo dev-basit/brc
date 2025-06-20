@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./questions.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import { ICONS } from "@/utils";
 import { FAQS } from "@/components/aboutus/faqs/faqs";
 
 export const Questions = () => {
@@ -15,7 +15,7 @@ export const Questions = () => {
           </p>
           <br />
           <br />
-          <Image src={ICONS.LAPTOP_BOX} alt="continer" />
+          <Image src={ICONS.LAPTOP_BOX} alt="continer" className={styles.laptopImage} />
         </div>
         <div className={styles.rightContainer} data-aos="zoom-in">
           <FAQS />

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./contact-us.module.css";
 import commonStyles from "../../../app/common.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import { ENUMS } from "@/utils";
 
 export const ContactUs = () => {
   return (
@@ -73,7 +73,7 @@ export const ContactUs = () => {
               <p>You agree to our friendly privacy policy.</p>
             </div> */}
 
-            <button className={commonStyles.buttonPrimary}>Send Message</button>
+            <button className={commonStyles.buttonPrimary}>GET STARTED</button>
           </div>
         </div>
       </div>

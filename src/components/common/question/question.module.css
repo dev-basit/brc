@@ -18,20 +18,24 @@
 
 .questionHeader {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  column-gap: 2rem;
   cursor: pointer;
   height: 4rem;
 }
 
-.questionHeader h1 {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
 .questionText {
-  margin: 0;
+  flex: 1;
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
   color: var(--color-secondary);
+
+  @media screen and (max-width: 576px) {
+    font-size: 1.7rem !important;
+  }
 }
 
 .icon {
