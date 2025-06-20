@@ -8,10 +8,10 @@
   position: absolute;
   width: 80%;
   margin: 0 auto;
-  margin-top: -10rem;
+  margin-top: -11rem;
 
   @media screen and (max-width: 1440px) {
-    margin-top: -10rem;
+    margin-top: -13rem;
   }
 
   @media screen and (max-width: 768px) {
