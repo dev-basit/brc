@@ -16,13 +16,6 @@
   font-size: 1.7rem;
 }
 
-.questionText {
-  font-size: 2.5rem;
-  margin: 0;
-  color: var(--color-secondary);
-  flex: 1;
-}
-
 .questionHeader {
   display: flex;
   /* justify-content: space-between; */
@@ -32,18 +25,16 @@
   height: 4rem;
 }
 
-.questionHeader h1 {
-  font-size: 2.3rem;
+.questionText {
+  flex: 1;
+  font-size: 2rem !important;
   font-weight: bold;
   margin-bottom: 0.6rem;
   text-transform: uppercase;
-
-  @media screen and (max-width: 1440px) {
-    font-size: 2rem;
-  }
+  color: var(--color-secondary);
 
   @media screen and (max-width: 576px) {
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
   }
 }
 

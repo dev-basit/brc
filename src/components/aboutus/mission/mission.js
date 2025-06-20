@@ -11,6 +11,7 @@ export const Mission = () => {
       </div>
 
       <div className={styles.rightContainer} data-aos="zoom-in-up">
+        <p className={commonStyles.textDashed}>MISSION</p>
         <h1>OUR MISSION</h1>
         <br />
         <p className={commonStyles.text}>
