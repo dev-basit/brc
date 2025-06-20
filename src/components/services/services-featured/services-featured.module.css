@@ -7,6 +7,10 @@
   @media screen and (min-width: 1441px) {
     height: calc(90vh - var(--navbar-height));
   }
+
+  @media screen and (max-width: 576px) {
+    height: calc(95vh - var(--navbar-height));
+  }
 }
 
 /* .holesBackground::before {
@@ -25,6 +29,7 @@
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    text-align: center;
   }
 }
 
