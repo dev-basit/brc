@@ -33,7 +33,7 @@ export const Hero = () => {
         playsInline
         controls={false}
       >
-        <source src="/videos/brc-feature-video.mp4" type="video/mp4" />
+        <source src="/videos/brc-video.webm" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

@@ -7,6 +7,10 @@
   @media screen and (min-width: 1441px) {
     height: calc(90vh - var(--navbar-height));
   }
+
+  @media screen and (max-width: 576px) {
+    height: calc(95vh - var(--navbar-height));
+  }
 }
 
 .aboutUsFeaturedContentContainer {
@@ -31,16 +35,26 @@
 
   @media screen and (max-width: 768px) {
     align-items: center;
+    text-align: center;
     padding: 4rem 0 0rem 0;
   }
 }
 
 .aboutUsFeaturedLeft h1 {
   text-transform: uppercase;
+
+  @media screen and (max-width: 576px) {
+    padding: 0 5rem;
+  }
 }
 
 .aboutUsFeaturedLeft p {
   margin: 3.5rem 0;
+
+  @media screen and (max-width: 576px) {
+    padding: 0 2rem;
+    margin: 3rem 0;
+  }
 }
 
 .aboutUsFeaturedImage {
