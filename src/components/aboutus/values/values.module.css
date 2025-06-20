@@ -2,6 +2,10 @@
   background: url("/images/brc/values-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media screen and (max-width: 768px) {
+    background: url("/images/brc/boxes-racks.svg");
+  }
 }
 
 .missionContainer {
