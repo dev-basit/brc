@@ -40,6 +40,7 @@ import BOXES_RACKS from "../../public/images/brc/boxes-racks.svg";
 import CALL from "../../public/images/brc/call.svg";
 import CALL_WHITE from "../../public/images/brc/call-white.svg";
 import CHOOSE_US_GROUP from "../../public/images/brc/choose-us-group.svg";
+import CIRCLE_BG from "../../public/images/brc/circles-bg.svg";
 import CLOCK from "../../public/images/brc/clock.svg";
 import CLOUD from "../../public/images/brc/cloud.svg";
 import COMPANIES_GROUP from "../../public/images/brc/companies-group.svg";
@@ -132,6 +133,7 @@ const Icons = {
   CALL_WHITE,
   CALL,
   CHOOSE_US_GROUP,
+  CIRCLE_BG,
   CLOCK,
   CLOUD,
   COMPANIES_GROUP,

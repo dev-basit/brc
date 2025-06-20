@@ -3,6 +3,7 @@
   height: calc(100vh - var(--navbar-height));
   color: var(--color-white);
   position: relative;
+  overflow: hidden;
 
   @media screen and (min-width: 1441px) {
     height: calc(90vh - var(--navbar-height));
@@ -13,12 +14,33 @@
   }
 }
 
-/* .holesBackground::before {
-  background-image: url("/images/brc/holes-bg.svg");
-  background-size: cover;
-  background-position: center;
+.holesBackground {
+  position: absolute;
+  background: url("/images/brc/circles-bg.svg");
   background-repeat: no-repeat;
-} */
+  /* background-position: center center; */
+  width: 50%;
+  height: 100%;
+  left: -430px;
+  /* top: 100px; */
+  /* transform: rotate(180deg); */
+  /* overflow: hidden; */
+
+  @media screen and (max-width: 1440px) {
+    /* left: -300px; */
+    width: 70%;
+    left: -470px;
+    background-position: center;
+  }
+
+  @media screen and (max-width: 1440px) {
+    width: 100%;
+    left: 0px;
+    background-position: center;
+    background-size: cover;
+    bottom: 100px;
+  }
+}
 
 .servicesFeaturedContentContainer {
   display: flex;

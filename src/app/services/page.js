@@ -16,6 +16,7 @@ export default function Services() {
           heading={service.heading}
           imageSrc={service.imageSrc}
           imagePosition={service.imagePosition}
+          details={service.details}
           features={service.features}
         />
       ))}

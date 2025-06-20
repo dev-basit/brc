@@ -6,7 +6,7 @@ import { ICONS } from "@/utils";
 export const ServicesFeatured = () => {
   return (
     <main className={styles.servicesFeaturedContainer} data-aos="fade-up">
-      {/* <div className={styles.holesBackground}></div> */}
+      <div className={styles.holesBackground}></div>
       <div className={styles.servicesFeaturedContentContainer}>
         <div className={styles.servicesFeaturedLeft}>
           <h1>
