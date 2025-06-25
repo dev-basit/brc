@@ -6,6 +6,15 @@ import { ENUMS, ICONS } from "@/utils";
 export const Vision = () => {
   return (
     <section className={styles.visionContainer} data-aos="zoom-in-up">
+      <div className={styles.arrowImage} data-aos="fade-left">
+        <Image
+          src={ICONS.ARROWS_GROUP}
+          alt="continer"
+          fill
+          style={{ objectFit: "contain", transform: "rotate(185deg)", opacity: ".6" }}
+        />
+      </div>
+
       <div className={styles.visionContent}>
         <p className={commonStyles.textDashedWhite}>VISION</p>
         <h2 className={styles.mainTitle}>OUR VISION</h2>
