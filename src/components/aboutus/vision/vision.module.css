@@ -52,7 +52,7 @@
 
 .visionImageContainer {
   display: flex;
-  flex: 1 1 45%;
+  /* flex: 1 1 45%; */
   min-width: 30rem;
 }
 
