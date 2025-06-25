@@ -110,7 +110,7 @@
   width: 65rem;
   height: 65rem;
   position: absolute;
-  bottom: -200;
+  bottom: -200px;
   right: -150px;
   z-index: 1;
 
