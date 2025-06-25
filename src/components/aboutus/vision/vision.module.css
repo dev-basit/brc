@@ -1,17 +1,24 @@
 .visionContainer {
   background-color: var(--color-blue-dark);
-  margin-top: -9.5rem;
+  background: #212b35;
+  margin-top: -10rem;
+  overflow: hidden;
+
+  @media screen and (max-width: 576px) {
+    margin-top: -5rem;
+  }
 }
 
 .visionContent {
   width: var(--body-content-width);
-  margin: 10rem auto;
-  padding: 6rem 2rem;
+  margin: 5rem auto;
+  padding: 3rem 2rem;
   text-align: left;
   color: var(--color-white);
 
   @media screen and (max-width: 1280px) {
     text-align: center;
+    padding: 2rem 2rem;
   }
 }
 
@@ -100,4 +107,24 @@
   font-size: 1.8rem;
   font-weight: 400;
   text-align: center;
+}
+
+.arrowImage {
+  display: inline-block;
+  width: 85rem;
+  height: 40rem;
+  position: absolute;
+  top: -100px;
+  right: -300px;
+  transform: rotate(45deg);
+  z-index: 1;
+
+  @media screen and (max-width: 1280px) {
+    top: -100px;
+    right: -300px;
+  }
+
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
 }
