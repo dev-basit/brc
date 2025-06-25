@@ -9,7 +9,7 @@
   }
 
   @media screen and (max-width: 576px) {
-    height: calc(95vh - var(--navbar-height));
+    height: calc(90vh - var(--navbar-height));
   }
 }
 
@@ -37,6 +37,10 @@
     align-items: center;
     text-align: center;
     padding: 4rem 0 0rem 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 7rem;
   }
 }
 
@@ -77,5 +81,10 @@
 
   @media screen and (max-width: 1440px) {
     height: 95%;
+  }
+
+  @media screen and (max-width: 576px) {
+    height: 100%;
+    object-fit: cover;
   }
 }
