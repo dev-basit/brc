@@ -34,6 +34,7 @@ import TRUCK from "../../public/images/truck.svg";
 import ABOUTUS_BG from "../../public/images/brc/aboutus-bg.svg";
 import ARROW_RIGHT from "../../public/images/brc/arrow-right.svg";
 import ARROWS_GROUP from "../../public/images/brc/arrows-group.svg";
+import ARROWS_GROUP2 from "../../public/images/brc/arrow-group2.svg";
 import BACKGROUND from "../../public/images/brc/backgroung.svg";
 import BOX_SHINE from "../../public/images/brc/box-shine.svg";
 import BOXES_RACKS from "../../public/images/brc/boxes-racks.svg";
@@ -127,6 +128,7 @@ const Icons = {
   ABOUTUS_BG,
   ARROW_RIGHT,
   ARROWS_GROUP,
+  ARROWS_GROUP2,
   BACKGROUND,
   BOX_SHINE,
   BOXES_RACKS,
