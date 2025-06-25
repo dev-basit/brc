@@ -15,9 +15,9 @@ export const ServicesFeatured = () => {
           <p>From delivery to digital, we help businesses scale efficiently with tailored services.</p>
           <button className={commonStyles.buttonPrimary}>Get a Free Quote</button>
         </div>
-        <div className={styles.servicesFeaturedImage}>
-          <Image src={ICONS.TRUCK_LARGE} alt="featured" />
-        </div>
+      </div>
+      <div className={styles.servicesFeaturedImage}>
+        <Image src={ICONS.TRUCK2} alt="featured" />
       </div>
     </main>
   );
