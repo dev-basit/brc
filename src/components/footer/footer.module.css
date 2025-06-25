@@ -16,6 +16,7 @@
 
 .footerContainer h3 {
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .footerContentContainer {
