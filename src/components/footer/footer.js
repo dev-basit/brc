@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className={styles.footerLogoContainer}>
           <Image src={ICONS.LOGO} width={150} height={100} alt="logo" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet neque tortor. </p>
-          <div className={socialStyles.socialsContainer}>
+          <div className={socialStyles.socialsContainer} style={{ marginBottom: "1rem" }}>
             {ENUMS.SOCIAL_ICONS.map((item, index) => (
               <Image
                 src={item.imageSrc}
