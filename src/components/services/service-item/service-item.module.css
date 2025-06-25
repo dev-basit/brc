@@ -88,12 +88,17 @@
   justify-content: flex-end;
   align-items: center;
   padding: 2rem;
+
+  @media screen and (max-width: 576px) {
+    padding: 0rem;
+  }
 }
 
 .rightContainer img {
   width: 100%;
 
   @media screen and (max-width: 576px) {
-    height: 30rem;
+    /* height: 30rem; */
+    object-fit: contain;
   }
 }
