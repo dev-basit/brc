@@ -2,6 +2,8 @@
   background-color: #1e1e1e;
   color: var(--color-white);
   padding: 10rem 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .footerContainer h1 {
@@ -178,4 +180,18 @@
   border-bottom-left-radius: 0;
   background-color: #fdb415;
   text-transform: uppercase;
+}
+
+.arrowImage {
+  display: inline-block;
+  width: 85rem;
+  height: 27rem;
+  position: absolute;
+  bottom: 80px;
+  right: -240px;
+  z-index: 1;
+
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
 }
