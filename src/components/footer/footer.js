@@ -11,6 +11,10 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footerContainer}>
+      <div className={styles.arrowImage} data-aos="fade-left">
+        <Image src={ICONS.ARROWS_GROUP2} alt="continer" fill style={{ objectFit: "contain" }} />
+      </div>
+
       <div className={styles.footerContentContainer}>
         <div className={styles.footerLogoContainer}>
           <Image src={ICONS.LOGO} width={150} height={100} alt="logo" />
