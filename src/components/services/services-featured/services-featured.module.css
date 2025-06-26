@@ -107,6 +107,14 @@
     width: 100%;
     height: 40rem;
 
+    top: 260px;
+    right: -240px;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    height: 40rem;
+
     top: 360px;
     right: -40px;
   }
